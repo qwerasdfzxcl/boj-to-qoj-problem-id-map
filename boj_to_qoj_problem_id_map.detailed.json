@@ -7,7 +7,29 @@
     "notes": [
       "This public export intentionally omits internal review logs, source category paths, previous mapping records, and account-specific data.",
       "match_type is a coarse public classification and is not a proof of equivalence by itself."
-    ]
+    ],
+    "risky_wrong_mapping_fix_applied_at": "2026-05-23T01:24:34",
+    "risky_wrong_mapping_removed_count": 45,
+    "risky_wrong_mapping_reassigned_count": 11,
+    "risky_wrong_mapping_final_count": 7826,
+    "risky_wrong_mapping_fix_notes": [
+      "Removed Junior Croatian Olympiad mappings incorrectly matched to senior Croatian Olympiad contests.",
+      "Removed Russia High School Programming Contest mappings incorrectly matched to Russia Team Open High School Programming Contest.",
+      "Removed JOI 2012/2013 final mappings incorrectly matched to JOI 2013/2014 final.",
+      "Reassigned split BOJ subtasks to the correct combined QOJ problem where the QOJ problem exists."
+    ],
+    "non_ac_mismatch_fix_applied_at": "2026-05-23T01:35:04",
+    "non_ac_mismatch_removed_count": 26,
+    "non_ac_mismatch_reassigned_count": 12,
+    "non_ac_mismatch_final_count": 7800,
+    "non_ac_mismatch_fix_notes": [
+      "Corrected APIO 2017 BOJ/QOJ order mismatch.",
+      "Corrected IOI 2013 Cave/Robots mapping by actual task title.",
+      "Corrected ICPC Yokohama 2022 mapping using solved.ac titles rather than Petrozavodsk mirror labels.",
+      "Removed Singapore NOI, CCPC Weihai/Open Cup Weihai, POI year-confusion, and BOJ 13504 false mappings."
+    ],
+    "petrozavodsk_2021_day4_fix_applied_at": "2026-05-23T01:39:11",
+    "petrozavodsk_2021_day4_reassigned_count": 10
   },
   "boj_to_qoj": {
     "1014": 5769,
@@ -466,11 +488,6 @@
     "5495": 13812,
     "5496": 13815,
     "5498": 13817,
-    "5527": 3156,
-    "5528": 3157,
-    "5529": 3158,
-    "5530": 3159,
-    "5531": 3160,
     "5622": 16649,
     "5623": 16650,
     "5624": 16651,
@@ -742,7 +759,7 @@
     "8872": 1152,
     "8873": 1153,
     "8874": 1154,
-    "8875": 1157,
+    "8875": 1156,
     "8877": 8852,
     "8878": 8853,
     "8879": 8854,
@@ -927,8 +944,8 @@
     "10070": 1147,
     "10071": 1148,
     "10072": 1149,
-    "10073": 1150,
-    "10074": 1151,
+    "10073": 1149,
+    "10074": 1149,
     "10075": 1150,
     "10076": 1151,
     "10095": 15277,
@@ -1131,7 +1148,7 @@
     "10921": 2787,
     "10922": 2788,
     "10923": 2789,
-    "10924": 2790,
+    "10924": 2789,
     "10925": 2790,
     "10955": 259,
     "10956": 260,
@@ -1310,7 +1327,8 @@
     "11527": 5631,
     "11529": 5633,
     "11530": 5634,
-    "11552": 12666,
+    "11552": 12665,
+    "11553": 12665,
     "11587": 13756,
     "11588": 13757,
     "11589": 13758,
@@ -1728,8 +1746,8 @@
     "12601": 14007,
     "12602": 14007,
     "12603": 14001,
-    "12604": 14002,
-    "12605": 14003,
+    "12604": 14001,
+    "12605": 14002,
     "12606": 14002,
     "12607": 14003,
     "12608": 14003,
@@ -1914,7 +1932,6 @@
     "13487": 13711,
     "13488": 13712,
     "13489": 13713,
-    "13504": 3407,
     "13718": 13715,
     "13719": 13716,
     "13720": 13717,
@@ -2413,9 +2430,9 @@
     "15798": 528,
     "15799": 529,
     "15800": 530,
-    "15842": 675,
+    "15842": 677,
     "15843": 676,
-    "15844": 677,
+    "15844": 675,
     "15845": 13179,
     "15846": 13180,
     "15847": 13181,
@@ -2615,8 +2632,10 @@
     "16761": 1698,
     "16762": 1699,
     "16772": 4698,
-    "16773": 4699,
-    "16774": 4700,
+    "16773": 4698,
+    "16774": 4698,
+    "16775": 4698,
+    "16776": 4698,
     "16777": 4699,
     "16778": 4700,
     "16779": 5550,
@@ -4171,7 +4190,7 @@
     "20089": 2783,
     "20090": 2784,
     "20105": 1505,
-    "20106": 1156,
+    "20106": 1155,
     "20107": 1501,
     "20108": 1501,
     "20109": 1501,
@@ -4394,18 +4413,6 @@
     "20773": 17844,
     "20774": 17845,
     "20775": 17846,
-    "20776": 9296,
-    "20777": 9297,
-    "20778": 9298,
-    "20779": 9299,
-    "20780": 9300,
-    "20781": 9301,
-    "20782": 9302,
-    "20783": 9303,
-    "20784": 9304,
-    "20785": 9305,
-    "20786": 9306,
-    "20787": 9307,
     "20788": 11510,
     "20789": 11511,
     "20790": 11512,
@@ -4496,16 +4503,16 @@
     "21069": 872,
     "21070": 873,
     "21071": 874,
-    "21072": 887,
-    "21073": 888,
-    "21074": 889,
-    "21075": 890,
-    "21076": 891,
-    "21077": 892,
-    "21078": 893,
-    "21079": 894,
-    "21080": 895,
-    "21081": 896,
+    "21072": 895,
+    "21073": 887,
+    "21074": 888,
+    "21075": 892,
+    "21076": 894,
+    "21077": 890,
+    "21078": 891,
+    "21079": 896,
+    "21080": 893,
+    "21081": 889,
     "21082": 957,
     "21083": 958,
     "21084": 959,
@@ -4682,18 +4689,6 @@
     "21595": 1951,
     "21596": 1952,
     "21597": 1953,
-    "21621": 4293,
-    "21622": 4294,
-    "21623": 4295,
-    "21624": 4296,
-    "21625": 4297,
-    "21626": 4298,
-    "21627": 4299,
-    "21628": 4300,
-    "21629": 4301,
-    "21630": 4302,
-    "21631": 4303,
-    "21632": 4304,
     "21633": 4293,
     "21634": 4294,
     "21635": 4295,
@@ -4804,10 +4799,6 @@
     "22216": 16012,
     "22218": 16015,
     "22220": 16017,
-    "22259": 2505,
-    "22260": 2506,
-    "22261": 2507,
-    "22262": 2508,
     "22279": 15917,
     "22280": 15918,
     "22281": 15919,
@@ -5558,14 +5549,6 @@
     "25134": 3642,
     "25135": 3643,
     "25136": 3644,
-    "25157": 13555,
-    "25158": 13556,
-    "25159": 13557,
-    "25160": 13558,
-    "25161": 5286,
-    "25162": 5287,
-    "25163": 5288,
-    "25164": 5289,
     "25217": 198,
     "25219": 4268,
     "25220": 4269,
@@ -5654,14 +5637,6 @@
     "25445": 13594,
     "25446": 13595,
     "25447": 13596,
-    "25449": 13593,
-    "25450": 13594,
-    "25451": 13595,
-    "25452": 13596,
-    "25480": 13559,
-    "25481": 13560,
-    "25482": 13561,
-    "25483": 13562,
     "25535": 17602,
     "25536": 17603,
     "25537": 17604,
@@ -5994,11 +5969,6 @@
     "26841": 9015,
     "26842": 9016,
     "26843": 9017,
-    "26844": 14762,
-    "26845": 14763,
-    "26846": 14755,
-    "26847": 14756,
-    "26848": 14757,
     "26850": 4579,
     "26851": 4580,
     "26852": 4581,
@@ -6068,17 +6038,17 @@
     "27400": 89,
     "27401": 90,
     "27403": 92,
-    "27416": 5473,
-    "27417": 5476,
+    "27416": 5470,
+    "27417": 5471,
     "27418": 5472,
-    "27419": 5475,
+    "27419": 5473,
     "27420": 5474,
-    "27421": 5470,
-    "27422": 5480,
+    "27421": 5475,
+    "27422": 5476,
     "27423": 5477,
-    "27424": 5479,
-    "27425": 5478,
-    "27426": 5471,
+    "27424": 5478,
+    "27425": 5479,
+    "27426": 5480,
     "27459": 4925,
     "27460": 4926,
     "27461": 4927,
@@ -6379,10 +6349,6 @@
     "28385": 13598,
     "28386": 13599,
     "28387": 13600,
-    "28388": 13597,
-    "28389": 13598,
-    "28390": 13599,
-    "28391": 13600,
     "28416": 8902,
     "28430": 8903,
     "28440": 8904,
@@ -6395,10 +6361,6 @@
     "28492": 6386,
     "28493": 6387,
     "28494": 6388,
-    "28495": 6288,
-    "28496": 6289,
-    "28497": 6290,
-    "28498": 6291,
     "28500": 8906,
     "28501": 8907,
     "28502": 8908,
@@ -6889,10 +6851,6 @@
     "32000": 8810,
     "32001": 8811,
     "32002": 8812,
-    "32003": 8894,
-    "32004": 8895,
-    "32005": 8896,
-    "32006": 8897,
     "32007": 8724,
     "32008": 8725,
     "32009": 8726,
@@ -7599,10 +7557,6 @@
     "34569": 10199,
     "34570": 10200,
     "34571": 10201,
-    "34573": 10198,
-    "34574": 10199,
-    "34575": 10200,
-    "34576": 10201,
     "34581": 8730,
     "34582": 8731,
     "34583": 8732,
@@ -11072,41 +11026,6 @@
       "match_type": "title_match",
       "qoj_title": "Batch Scheduling"
     },
-    "5527": {
-      "boj_problem_id": 5527,
-      "qoj_problem_id": 3156,
-      "qoj_url": "https://qoj.ac/problem/3156",
-      "match_type": "contest_export",
-      "qoj_title": "JOI Emblem"
-    },
-    "5528": {
-      "boj_problem_id": 5528,
-      "qoj_problem_id": 3157,
-      "qoj_url": "https://qoj.ac/problem/3157",
-      "match_type": "contest_export",
-      "qoj_title": "IOI Manju"
-    },
-    "5529": {
-      "boj_problem_id": 5529,
-      "qoj_problem_id": 3158,
-      "qoj_url": "https://qoj.ac/problem/3158",
-      "match_type": "contest_export",
-      "qoj_title": "Baumkuchen"
-    },
-    "5530": {
-      "boj_problem_id": 5530,
-      "qoj_problem_id": 3159,
-      "qoj_url": "https://qoj.ac/problem/3159",
-      "match_type": "contest_export",
-      "qoj_title": "Sugar Glider"
-    },
-    "5531": {
-      "boj_problem_id": 5531,
-      "qoj_problem_id": 3160,
-      "qoj_url": "https://qoj.ac/problem/3160",
-      "match_type": "contest_export",
-      "qoj_title": "Cutting"
-    },
     "5622": {
       "boj_problem_id": 5622,
       "qoj_problem_id": 16649,
@@ -13006,10 +12925,20 @@
     },
     "8875": {
       "boj_problem_id": 8875,
-      "qoj_problem_id": 1157,
-      "qoj_url": "https://qoj.ac/problem/1157",
-      "match_type": "contest_export",
-      "qoj_title": "Game"
+      "boj_title": "Robots",
+      "qoj_problem_id": 1156,
+      "qoj_title": "Robots",
+      "qoj_url": "https://qoj.ac/problem/1156",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 8875,
+        "qoj_problem_id": 1157,
+        "qoj_url": "https://qoj.ac/problem/1157",
+        "match_type": "contest_export",
+        "qoj_title": "Game"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "8877": {
       "boj_problem_id": 8877,
@@ -14301,17 +14230,37 @@
     },
     "10073": {
       "boj_problem_id": 10073,
-      "qoj_problem_id": 1150,
-      "qoj_url": "https://qoj.ac/problem/1150",
-      "match_type": "contest_export",
-      "qoj_title": "Friend"
+      "boj_title": "Gondola - Replacement Sequence",
+      "qoj_problem_id": 1149,
+      "qoj_title": "Gondola",
+      "qoj_url": "https://qoj.ac/problem/1149",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 10073,
+        "qoj_problem_id": 1150,
+        "qoj_url": "https://qoj.ac/problem/1150",
+        "match_type": "contest_export",
+        "qoj_title": "Friend"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "10074": {
       "boj_problem_id": 10074,
-      "qoj_problem_id": 1151,
-      "qoj_url": "https://qoj.ac/problem/1151",
-      "match_type": "contest_export",
-      "qoj_title": "Holiday"
+      "boj_title": "Gondola - Count Replacement Sequences",
+      "qoj_problem_id": 1149,
+      "qoj_title": "Gondola",
+      "qoj_url": "https://qoj.ac/problem/1149",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 10074,
+        "qoj_problem_id": 1151,
+        "qoj_url": "https://qoj.ac/problem/1151",
+        "match_type": "contest_export",
+        "qoj_title": "Holiday"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "10075": {
       "boj_problem_id": 10075,
@@ -15729,10 +15678,20 @@
     },
     "10924": {
       "boj_problem_id": 10924,
-      "qoj_problem_id": 2790,
-      "qoj_url": "https://qoj.ac/problem/2790",
-      "match_type": "contest_export",
-      "qoj_title": "Towns"
+      "boj_title": "Sorting 2",
+      "qoj_problem_id": 2789,
+      "qoj_title": "Sorting",
+      "qoj_url": "https://qoj.ac/problem/2789",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 10924,
+        "qoj_problem_id": 2790,
+        "qoj_url": "https://qoj.ac/problem/2790",
+        "match_type": "contest_export",
+        "qoj_title": "Towns"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "10925": {
       "boj_problem_id": 10925,
@@ -16982,10 +16941,31 @@
     },
     "11552": {
       "boj_problem_id": 11552,
-      "qoj_problem_id": 12666,
-      "qoj_url": "https://qoj.ac/problem/12666",
-      "match_type": "contest_export",
-      "qoj_title": "Teleporters"
+      "boj_title": "Pyramid Base 2",
+      "qoj_problem_id": 12665,
+      "qoj_title": "Pyramid Base",
+      "qoj_url": "https://qoj.ac/problem/12665",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 11552,
+        "qoj_problem_id": 12666,
+        "qoj_url": "https://qoj.ac/problem/12666",
+        "match_type": "contest_export",
+        "qoj_title": "Teleporters"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
+    },
+    "11553": {
+      "boj_problem_id": 11553,
+      "boj_title": "Pyramid Base 3",
+      "qoj_problem_id": 12665,
+      "qoj_title": "Pyramid Base",
+      "qoj_url": "https://qoj.ac/problem/12665",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": null,
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "11587": {
       "boj_problem_id": 11587,
@@ -19908,17 +19888,37 @@
     },
     "12604": {
       "boj_problem_id": 12604,
-      "qoj_problem_id": 14002,
-      "qoj_url": "https://qoj.ac/problem/14002",
-      "match_type": "contest_export",
-      "qoj_title": "Reverse Words"
+      "boj_title": "Store Credit (Large)",
+      "qoj_problem_id": 14001,
+      "qoj_title": "Store Credit",
+      "qoj_url": "https://qoj.ac/problem/14001",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 12604,
+        "qoj_problem_id": 14002,
+        "qoj_url": "https://qoj.ac/problem/14002",
+        "match_type": "contest_export",
+        "qoj_title": "Reverse Words"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "12605": {
       "boj_problem_id": 12605,
-      "qoj_problem_id": 14003,
-      "qoj_url": "https://qoj.ac/problem/14003",
-      "match_type": "contest_export",
-      "qoj_title": "T9 Spelling"
+      "boj_title": "Reverse Words (Small)",
+      "qoj_problem_id": 14002,
+      "qoj_title": "Reverse Words",
+      "qoj_url": "https://qoj.ac/problem/14002",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 12605,
+        "qoj_problem_id": 14003,
+        "qoj_url": "https://qoj.ac/problem/14003",
+        "match_type": "contest_export",
+        "qoj_title": "T9 Spelling"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "12606": {
       "boj_problem_id": 12606,
@@ -21207,13 +21207,6 @@
       "qoj_url": "https://qoj.ac/problem/13713",
       "match_type": "title_match",
       "qoj_title": "Vještica"
-    },
-    "13504": {
-      "boj_problem_id": 13504,
-      "qoj_problem_id": 3407,
-      "qoj_url": "https://qoj.ac/problem/3407",
-      "match_type": "contest_export",
-      "qoj_title": "Gift Hunting"
     },
     "13718": {
       "boj_problem_id": 13718,
@@ -24703,24 +24696,54 @@
     },
     "15842": {
       "boj_problem_id": 15842,
-      "qoj_problem_id": 675,
-      "qoj_url": "https://qoj.ac/problem/675",
-      "match_type": "contest_export",
-      "qoj_title": "Land of the Rainbow Gold"
+      "boj_title": "Koala Game",
+      "qoj_problem_id": 677,
+      "qoj_title": "Koala Game",
+      "qoj_url": "https://qoj.ac/problem/677",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 15842,
+        "qoj_problem_id": 675,
+        "qoj_url": "https://qoj.ac/problem/675",
+        "match_type": "contest_export",
+        "qoj_title": "Land of the Rainbow Gold"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "15843": {
       "boj_problem_id": 15843,
+      "boj_title": "Travelling Merchant",
       "qoj_problem_id": 676,
+      "qoj_title": "Travelling Merchant",
       "qoj_url": "https://qoj.ac/problem/676",
-      "match_type": "contest_export",
-      "qoj_title": "Travelling Merchant"
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 15843,
+        "qoj_problem_id": 676,
+        "qoj_url": "https://qoj.ac/problem/676",
+        "match_type": "contest_export",
+        "qoj_title": "Travelling Merchant"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "15844": {
       "boj_problem_id": 15844,
-      "qoj_problem_id": 677,
-      "qoj_url": "https://qoj.ac/problem/677",
-      "match_type": "contest_export",
-      "qoj_title": "Koala Game"
+      "boj_title": "Land of the Rainbow Gold",
+      "qoj_problem_id": 675,
+      "qoj_title": "Land of the Rainbow Gold",
+      "qoj_url": "https://qoj.ac/problem/675",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 15844,
+        "qoj_problem_id": 677,
+        "qoj_url": "https://qoj.ac/problem/677",
+        "match_type": "contest_export",
+        "qoj_title": "Koala Game"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "15845": {
       "boj_problem_id": 15845,
@@ -26117,17 +26140,59 @@
     },
     "16773": {
       "boj_problem_id": 16773,
-      "qoj_problem_id": 4699,
-      "qoj_url": "https://qoj.ac/problem/4699",
-      "match_type": "contest_export",
-      "qoj_title": "Election Campaign"
+      "boj_title": "Colored Tiles 2",
+      "qoj_problem_id": 4698,
+      "qoj_title": "Colored Tiles",
+      "qoj_url": "https://qoj.ac/problem/4698",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 16773,
+        "qoj_problem_id": 4699,
+        "qoj_url": "https://qoj.ac/problem/4699",
+        "match_type": "contest_export",
+        "qoj_title": "Election Campaign"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "16774": {
       "boj_problem_id": 16774,
-      "qoj_problem_id": 4700,
-      "qoj_url": "https://qoj.ac/problem/4700",
-      "match_type": "contest_export",
-      "qoj_title": "Sterilizing Spray"
+      "boj_title": "Colored Tiles 3",
+      "qoj_problem_id": 4698,
+      "qoj_title": "Colored Tiles",
+      "qoj_url": "https://qoj.ac/problem/4698",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": {
+        "boj_problem_id": 16774,
+        "qoj_problem_id": 4700,
+        "qoj_url": "https://qoj.ac/problem/4700",
+        "match_type": "contest_export",
+        "qoj_title": "Sterilizing Spray"
+      },
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
+    },
+    "16775": {
+      "boj_problem_id": 16775,
+      "boj_title": "Colored Tiles 4",
+      "qoj_problem_id": 4698,
+      "qoj_title": "Colored Tiles",
+      "qoj_url": "https://qoj.ac/problem/4698",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": null,
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
+    },
+    "16776": {
+      "boj_problem_id": 16776,
+      "boj_title": "Colored Tiles 5",
+      "qoj_problem_id": 4698,
+      "qoj_title": "Colored Tiles",
+      "qoj_url": "https://qoj.ac/problem/4698",
+      "method": "manual_title_correction",
+      "source_layer": "manual_risky_review",
+      "previous_mapping": null,
+      "review_note": "Corrected after solved.ac BOJ title vs QOJ title review of risky multi-BOJ mappings."
     },
     "16777": {
       "boj_problem_id": 16777,
@@ -37009,10 +37074,20 @@
     },
     "20106": {
       "boj_problem_id": 20106,
-      "qoj_problem_id": 1156,
-      "qoj_url": "https://qoj.ac/problem/1156",
-      "match_type": "contest_export",
-      "qoj_title": "Robots"
+      "boj_title": "Cave",
+      "qoj_problem_id": 1155,
+      "qoj_title": "Cave",
+      "qoj_url": "https://qoj.ac/problem/1155",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 20106,
+        "qoj_problem_id": 1156,
+        "qoj_url": "https://qoj.ac/problem/1156",
+        "match_type": "contest_export",
+        "qoj_title": "Robots"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "20107": {
       "boj_problem_id": 20107,
@@ -38568,90 +38643,6 @@
       "match_type": "contest_export",
       "qoj_title": "Antiplagiarism"
     },
-    "20776": {
-      "boj_problem_id": 20776,
-      "qoj_problem_id": 9296,
-      "qoj_url": "https://qoj.ac/problem/9296",
-      "match_type": "contest_export",
-      "qoj_title": "Golden Spirit"
-    },
-    "20777": {
-      "boj_problem_id": 20777,
-      "qoj_problem_id": 9297,
-      "qoj_url": "https://qoj.ac/problem/9297",
-      "match_type": "contest_export",
-      "qoj_title": "Labyrinth"
-    },
-    "20778": {
-      "boj_problem_id": 20778,
-      "qoj_problem_id": 9298,
-      "qoj_url": "https://qoj.ac/problem/9298",
-      "match_type": "contest_export",
-      "qoj_title": "Rencontre"
-    },
-    "20779": {
-      "boj_problem_id": 20779,
-      "qoj_problem_id": 9299,
-      "qoj_url": "https://qoj.ac/problem/9299",
-      "match_type": "contest_export",
-      "qoj_title": "ABC Conjecture"
-    },
-    "20780": {
-      "boj_problem_id": 20780,
-      "qoj_problem_id": 9300,
-      "qoj_url": "https://qoj.ac/problem/9300",
-      "match_type": "contest_export",
-      "qoj_title": "So Many Possibilities..."
-    },
-    "20781": {
-      "boj_problem_id": 20781,
-      "qoj_problem_id": 9301,
-      "qoj_url": "https://qoj.ac/problem/9301",
-      "match_type": "contest_export",
-      "qoj_title": "Skeleton Dynamization"
-    },
-    "20782": {
-      "boj_problem_id": 20782,
-      "qoj_problem_id": 9302,
-      "qoj_url": "https://qoj.ac/problem/9302",
-      "match_type": "contest_export",
-      "qoj_title": "Caesar Cipher"
-    },
-    "20783": {
-      "boj_problem_id": 20783,
-      "qoj_problem_id": 9303,
-      "qoj_url": "https://qoj.ac/problem/9303",
-      "match_type": "contest_export",
-      "qoj_title": "Message Bomb"
-    },
-    "20784": {
-      "boj_problem_id": 20784,
-      "qoj_problem_id": 9304,
-      "qoj_url": "https://qoj.ac/problem/9304",
-      "match_type": "contest_export",
-      "qoj_title": "Sean the Cuber"
-    },
-    "20785": {
-      "boj_problem_id": 20785,
-      "qoj_problem_id": 9305,
-      "qoj_url": "https://qoj.ac/problem/9305",
-      "match_type": "contest_export",
-      "qoj_title": "Steins;Game"
-    },
-    "20786": {
-      "boj_problem_id": 20786,
-      "qoj_problem_id": 9306,
-      "qoj_url": "https://qoj.ac/problem/9306",
-      "match_type": "contest_export",
-      "qoj_title": "Tree Tweaking"
-    },
-    "20787": {
-      "boj_problem_id": 20787,
-      "qoj_problem_id": 9307,
-      "qoj_url": "https://qoj.ac/problem/9307",
-      "match_type": "contest_export",
-      "qoj_title": "Clock Master"
-    },
     "20788": {
       "boj_problem_id": 20788,
       "qoj_problem_id": 11510,
@@ -39284,73 +39275,173 @@
     },
     "21072": {
       "boj_problem_id": 21072,
-      "qoj_problem_id": 887,
-      "qoj_url": "https://qoj.ac/problem/887",
-      "match_type": "contest_export",
-      "qoj_title": "Final Exam"
+      "boj_title": "Color",
+      "qoj_problem_id": 895,
+      "qoj_title": "Color",
+      "qoj_url": "https://qoj.ac/problem/895",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21072,
+        "qoj_problem_id": 887,
+        "qoj_url": "https://qoj.ac/problem/887",
+        "match_type": "contest_export",
+        "qoj_title": "Final Exam"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21073": {
       "boj_problem_id": 21073,
-      "qoj_problem_id": 888,
-      "qoj_url": "https://qoj.ac/problem/888",
-      "match_type": "contest_export",
-      "qoj_title": "Travel around China"
+      "boj_title": "Final Exam",
+      "qoj_problem_id": 887,
+      "qoj_title": "Final Exam",
+      "qoj_url": "https://qoj.ac/problem/887",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21073,
+        "qoj_problem_id": 888,
+        "qoj_url": "https://qoj.ac/problem/888",
+        "match_type": "contest_export",
+        "qoj_title": "Travel around China"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21074": {
       "boj_problem_id": 21074,
-      "qoj_problem_id": 889,
-      "qoj_url": "https://qoj.ac/problem/889",
-      "match_type": "contest_export",
-      "qoj_title": "Wandering"
+      "boj_title": "Travel around China",
+      "qoj_problem_id": 888,
+      "qoj_title": "Travel around China",
+      "qoj_url": "https://qoj.ac/problem/888",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21074,
+        "qoj_problem_id": 889,
+        "qoj_url": "https://qoj.ac/problem/889",
+        "match_type": "contest_export",
+        "qoj_title": "Wandering"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21075": {
       "boj_problem_id": 21075,
-      "qoj_problem_id": 890,
-      "qoj_url": "https://qoj.ac/problem/890",
-      "match_type": "contest_export",
-      "qoj_title": "Insects"
+      "boj_title": "Minimal Cut",
+      "qoj_problem_id": 892,
+      "qoj_title": "Minimal Cut",
+      "qoj_url": "https://qoj.ac/problem/892",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21075,
+        "qoj_problem_id": 890,
+        "qoj_url": "https://qoj.ac/problem/890",
+        "match_type": "contest_export",
+        "qoj_title": "Insects"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21076": {
       "boj_problem_id": 21076,
-      "qoj_problem_id": 891,
-      "qoj_url": "https://qoj.ac/problem/891",
-      "match_type": "contest_export",
-      "qoj_title": "Minimum Spanning Tree"
+      "boj_title": "Longest Loose Segment",
+      "qoj_problem_id": 894,
+      "qoj_title": "Longest Loose Segment",
+      "qoj_url": "https://qoj.ac/problem/894",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21076,
+        "qoj_problem_id": 891,
+        "qoj_url": "https://qoj.ac/problem/891",
+        "match_type": "contest_export",
+        "qoj_title": "Minimum Spanning Tree"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21077": {
       "boj_problem_id": 21077,
-      "qoj_problem_id": 892,
-      "qoj_url": "https://qoj.ac/problem/892",
-      "match_type": "contest_export",
-      "qoj_title": "Minimal Cut"
+      "boj_title": "Insects",
+      "qoj_problem_id": 890,
+      "qoj_title": "Insects",
+      "qoj_url": "https://qoj.ac/problem/890",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21077,
+        "qoj_problem_id": 892,
+        "qoj_url": "https://qoj.ac/problem/892",
+        "match_type": "contest_export",
+        "qoj_title": "Minimal Cut"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21078": {
       "boj_problem_id": 21078,
-      "qoj_problem_id": 893,
-      "qoj_url": "https://qoj.ac/problem/893",
-      "match_type": "contest_export",
-      "qoj_title": "Revenue"
+      "boj_title": "Minimum Spanning Tree",
+      "qoj_problem_id": 891,
+      "qoj_title": "Minimum Spanning Tree",
+      "qoj_url": "https://qoj.ac/problem/891",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21078,
+        "qoj_problem_id": 893,
+        "qoj_url": "https://qoj.ac/problem/893",
+        "match_type": "contest_export",
+        "qoj_title": "Revenue"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21079": {
       "boj_problem_id": 21079,
-      "qoj_problem_id": 894,
-      "qoj_url": "https://qoj.ac/problem/894",
-      "match_type": "contest_export",
-      "qoj_title": "Longest Loose Segment"
+      "boj_title": "Horses",
+      "qoj_problem_id": 896,
+      "qoj_title": "Horses",
+      "qoj_url": "https://qoj.ac/problem/896",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21079,
+        "qoj_problem_id": 894,
+        "qoj_url": "https://qoj.ac/problem/894",
+        "match_type": "contest_export",
+        "qoj_title": "Longest Loose Segment"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21080": {
       "boj_problem_id": 21080,
-      "qoj_problem_id": 895,
-      "qoj_url": "https://qoj.ac/problem/895",
-      "match_type": "contest_export",
-      "qoj_title": "Color"
+      "boj_title": "Revenue",
+      "qoj_problem_id": 893,
+      "qoj_title": "Revenue",
+      "qoj_url": "https://qoj.ac/problem/893",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21080,
+        "qoj_problem_id": 895,
+        "qoj_url": "https://qoj.ac/problem/895",
+        "match_type": "contest_export",
+        "qoj_title": "Color"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21081": {
       "boj_problem_id": 21081,
-      "qoj_problem_id": 896,
-      "qoj_url": "https://qoj.ac/problem/896",
-      "match_type": "contest_export",
-      "qoj_title": "Horses"
+      "boj_title": "Wandering",
+      "qoj_problem_id": 889,
+      "qoj_title": "Wandering",
+      "qoj_url": "https://qoj.ac/problem/889",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 21081,
+        "qoj_problem_id": 896,
+        "qoj_url": "https://qoj.ac/problem/896",
+        "match_type": "contest_export",
+        "qoj_title": "Horses"
+      },
+      "review_note": "Corrected Petrozavodsk Winter 2021 Day 4 after QOJ profile non-AC review; BOJ labels do not match QOJ dashboard order."
     },
     "21082": {
       "boj_problem_id": 21082,
@@ -40584,90 +40675,6 @@
       "match_type": "contest_export",
       "qoj_title": "You Be the Judge!"
     },
-    "21621": {
-      "boj_problem_id": 21621,
-      "qoj_problem_id": 4293,
-      "qoj_url": "https://qoj.ac/problem/4293",
-      "match_type": "contest_export",
-      "qoj_title": "Bank Transfer"
-    },
-    "21622": {
-      "boj_problem_id": 21622,
-      "qoj_problem_id": 4294,
-      "qoj_url": "https://qoj.ac/problem/4294",
-      "match_type": "contest_export",
-      "qoj_title": "Bacteria"
-    },
-    "21623": {
-      "boj_problem_id": 21623,
-      "qoj_problem_id": 4295,
-      "qoj_url": "https://qoj.ac/problem/4295",
-      "match_type": "contest_export",
-      "qoj_title": "Check Markers"
-    },
-    "21624": {
-      "boj_problem_id": 21624,
-      "qoj_problem_id": 4296,
-      "qoj_url": "https://qoj.ac/problem/4296",
-      "match_type": "contest_export",
-      "qoj_title": "Multiple Subject Lessons"
-    },
-    "21625": {
-      "boj_problem_id": 21625,
-      "qoj_problem_id": 4297,
-      "qoj_url": "https://qoj.ac/problem/4297",
-      "match_type": "contest_export",
-      "qoj_title": "Prank at IKEA"
-    },
-    "21626": {
-      "boj_problem_id": 21626,
-      "qoj_problem_id": 4298,
-      "qoj_url": "https://qoj.ac/problem/4298",
-      "match_type": "contest_export",
-      "qoj_title": "SMS from MCHS"
-    },
-    "21627": {
-      "boj_problem_id": 21627,
-      "qoj_problem_id": 4299,
-      "qoj_url": "https://qoj.ac/problem/4299",
-      "match_type": "contest_export",
-      "qoj_title": "Cooking"
-    },
-    "21628": {
-      "boj_problem_id": 21628,
-      "qoj_problem_id": 4300,
-      "qoj_url": "https://qoj.ac/problem/4300",
-      "match_type": "contest_export",
-      "qoj_title": "Hard Work"
-    },
-    "21629": {
-      "boj_problem_id": 21629,
-      "qoj_problem_id": 4301,
-      "qoj_url": "https://qoj.ac/problem/4301",
-      "match_type": "contest_export",
-      "qoj_title": "Points and Segments"
-    },
-    "21630": {
-      "boj_problem_id": 21630,
-      "qoj_problem_id": 4302,
-      "qoj_url": "https://qoj.ac/problem/4302",
-      "match_type": "contest_export",
-      "qoj_title": "Straight"
-    },
-    "21631": {
-      "boj_problem_id": 21631,
-      "qoj_problem_id": 4303,
-      "qoj_url": "https://qoj.ac/problem/4303",
-      "match_type": "contest_export",
-      "qoj_title": "New Level"
-    },
-    "21632": {
-      "boj_problem_id": 21632,
-      "qoj_problem_id": 4304,
-      "qoj_url": "https://qoj.ac/problem/4304",
-      "match_type": "contest_export",
-      "qoj_title": "The Firm Knapsack Problem"
-    },
     "21633": {
       "boj_problem_id": 21633,
       "qoj_problem_id": 4293,
@@ -41437,34 +41444,6 @@
       "qoj_url": "https://qoj.ac/problem/16017",
       "match_type": "title_match",
       "qoj_title": "Car Park"
-    },
-    "22259": {
-      "boj_problem_id": 22259,
-      "qoj_problem_id": 2505,
-      "qoj_url": "https://qoj.ac/problem/2505",
-      "match_type": "contest_export",
-      "qoj_title": "报数"
-    },
-    "22260": {
-      "boj_problem_id": 22260,
-      "qoj_problem_id": 2506,
-      "qoj_url": "https://qoj.ac/problem/2506",
-      "match_type": "contest_export",
-      "qoj_title": "数列"
-    },
-    "22261": {
-      "boj_problem_id": 22261,
-      "qoj_problem_id": 2507,
-      "qoj_url": "https://qoj.ac/problem/2507",
-      "match_type": "contest_export",
-      "qoj_title": "方差"
-    },
-    "22262": {
-      "boj_problem_id": 22262,
-      "qoj_problem_id": 2508,
-      "qoj_url": "https://qoj.ac/problem/2508",
-      "match_type": "contest_export",
-      "qoj_title": "棋局"
     },
     "22279": {
       "boj_problem_id": 22279,
@@ -46716,62 +46695,6 @@
       "match_type": "title_match",
       "qoj_title": "Još jači"
     },
-    "25157": {
-      "boj_problem_id": 25157,
-      "qoj_problem_id": 13555,
-      "qoj_url": "https://qoj.ac/problem/13555",
-      "match_type": "contest_export",
-      "qoj_title": "IZLET"
-    },
-    "25158": {
-      "boj_problem_id": 25158,
-      "qoj_problem_id": 13556,
-      "qoj_url": "https://qoj.ac/problem/13556",
-      "match_type": "contest_export",
-      "qoj_title": "LJEPOTICA"
-    },
-    "25159": {
-      "boj_problem_id": 25159,
-      "qoj_problem_id": 13557,
-      "qoj_url": "https://qoj.ac/problem/13557",
-      "match_type": "contest_export",
-      "qoj_title": "SEGWAY"
-    },
-    "25160": {
-      "boj_problem_id": 25160,
-      "qoj_problem_id": 13558,
-      "qoj_url": "https://qoj.ac/problem/13558",
-      "match_type": "contest_export",
-      "qoj_title": "TENIS"
-    },
-    "25161": {
-      "boj_problem_id": 25161,
-      "qoj_problem_id": 5286,
-      "qoj_url": "https://qoj.ac/problem/5286",
-      "match_type": "contest_export",
-      "qoj_title": "Autobahn"
-    },
-    "25162": {
-      "boj_problem_id": 25162,
-      "qoj_problem_id": 5287,
-      "qoj_url": "https://qoj.ac/problem/5287",
-      "match_type": "contest_export",
-      "qoj_title": "Cigle"
-    },
-    "25163": {
-      "boj_problem_id": 25163,
-      "qoj_problem_id": 5288,
-      "qoj_url": "https://qoj.ac/problem/5288",
-      "match_type": "contest_export",
-      "qoj_title": "Izvanzemaljci"
-    },
-    "25164": {
-      "boj_problem_id": 25164,
-      "qoj_problem_id": 5289,
-      "qoj_url": "https://qoj.ac/problem/5289",
-      "match_type": "contest_export",
-      "qoj_title": "MalnaRISC"
-    },
     "25217": {
       "boj_problem_id": 25217,
       "qoj_problem_id": 198,
@@ -47387,62 +47310,6 @@
       "qoj_url": "https://qoj.ac/problem/13596",
       "match_type": "contest_export",
       "qoj_title": "Vinjete"
-    },
-    "25449": {
-      "boj_problem_id": 25449,
-      "qoj_problem_id": 13593,
-      "qoj_url": "https://qoj.ac/problem/13593",
-      "match_type": "contest_export",
-      "qoj_title": "Mađioničar"
-    },
-    "25450": {
-      "boj_problem_id": 25450,
-      "qoj_problem_id": 13594,
-      "qoj_url": "https://qoj.ac/problem/13594",
-      "match_type": "contest_export",
-      "qoj_title": "Mensza"
-    },
-    "25451": {
-      "boj_problem_id": 25451,
-      "qoj_problem_id": 13595,
-      "qoj_url": "https://qoj.ac/problem/13595",
-      "match_type": "contest_export",
-      "qoj_title": "Povjerenstvo"
-    },
-    "25452": {
-      "boj_problem_id": 25452,
-      "qoj_problem_id": 13596,
-      "qoj_url": "https://qoj.ac/problem/13596",
-      "match_type": "contest_export",
-      "qoj_title": "Vinjete"
-    },
-    "25480": {
-      "boj_problem_id": 25480,
-      "qoj_problem_id": 13559,
-      "qoj_url": "https://qoj.ac/problem/13559",
-      "match_type": "contest_export",
-      "qoj_title": "Paint"
-    },
-    "25481": {
-      "boj_problem_id": 25481,
-      "qoj_problem_id": 13560,
-      "qoj_url": "https://qoj.ac/problem/13560",
-      "match_type": "contest_export",
-      "qoj_title": "Pastiri"
-    },
-    "25482": {
-      "boj_problem_id": 25482,
-      "qoj_problem_id": 13561,
-      "qoj_url": "https://qoj.ac/problem/13561",
-      "match_type": "contest_export",
-      "qoj_title": "Semafor"
-    },
-    "25483": {
-      "boj_problem_id": 25483,
-      "qoj_problem_id": 13562,
-      "qoj_url": "https://qoj.ac/problem/13562",
-      "match_type": "contest_export",
-      "qoj_title": "Zagrade"
     },
     "25535": {
       "boj_problem_id": 25535,
@@ -49768,41 +49635,6 @@
       "match_type": "contest_export",
       "qoj_title": "Tourist"
     },
-    "26844": {
-      "boj_problem_id": 26844,
-      "qoj_problem_id": 14762,
-      "qoj_url": "https://qoj.ac/problem/14762",
-      "match_type": "contest_export",
-      "qoj_title": "Carry-on luggage"
-    },
-    "26845": {
-      "boj_problem_id": 26845,
-      "qoj_problem_id": 14763,
-      "qoj_url": "https://qoj.ac/problem/14763",
-      "match_type": "contest_export",
-      "qoj_title": "Arithmetic expression"
-    },
-    "26846": {
-      "boj_problem_id": 26846,
-      "qoj_problem_id": 14755,
-      "qoj_url": "https://qoj.ac/problem/14755",
-      "match_type": "contest_export",
-      "qoj_title": "Dostawy"
-    },
-    "26847": {
-      "boj_problem_id": 26847,
-      "qoj_problem_id": 14756,
-      "qoj_url": "https://qoj.ac/problem/14756",
-      "match_type": "contest_export",
-      "qoj_title": "Hanoj"
-    },
-    "26848": {
-      "boj_problem_id": 26848,
-      "qoj_problem_id": 14757,
-      "qoj_url": "https://qoj.ac/problem/14757",
-      "match_type": "contest_export",
-      "qoj_title": "Łazik kosmiczny"
-    },
     "26850": {
       "boj_problem_id": 26850,
       "qoj_problem_id": 4579,
@@ -50288,80 +50120,190 @@
     },
     "27416": {
       "boj_problem_id": 27416,
-      "qoj_problem_id": 5473,
-      "qoj_url": "https://qoj.ac/problem/5473",
-      "match_type": "contest_export",
-      "qoj_title": "Move One Coin"
+      "boj_title": "Hasty Santa Claus",
+      "qoj_problem_id": 5470,
+      "qoj_title": "Hasty Santa Claus",
+      "qoj_url": "https://qoj.ac/problem/5470",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27416,
+        "qoj_problem_id": 5473,
+        "qoj_url": "https://qoj.ac/problem/5473",
+        "match_type": "contest_export",
+        "qoj_title": "Move One Coin"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27417": {
       "boj_problem_id": 27417,
-      "qoj_problem_id": 5476,
-      "qoj_url": "https://qoj.ac/problem/5476",
-      "match_type": "contest_export",
-      "qoj_title": "Remodeling the Dungeon"
+      "boj_title": "Interactive Number Guessing",
+      "qoj_problem_id": 5471,
+      "qoj_title": "Interactive Number Guessing",
+      "qoj_url": "https://qoj.ac/problem/5471",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27417,
+        "qoj_problem_id": 5476,
+        "qoj_url": "https://qoj.ac/problem/5476",
+        "match_type": "contest_export",
+        "qoj_title": "Remodeling the Dungeon"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27418": {
       "boj_problem_id": 27418,
+      "boj_title": "Secure the Top Secret",
       "qoj_problem_id": 5472,
+      "qoj_title": "Secure the Top Secret",
       "qoj_url": "https://qoj.ac/problem/5472",
-      "match_type": "contest_export",
-      "qoj_title": "Secure the Top Secret"
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27418,
+        "qoj_problem_id": 5472,
+        "qoj_url": "https://qoj.ac/problem/5472",
+        "match_type": "contest_export",
+        "qoj_title": "Secure the Top Secret"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27419": {
       "boj_problem_id": 27419,
-      "qoj_problem_id": 5475,
-      "qoj_url": "https://qoj.ac/problem/5475",
-      "match_type": "contest_export",
-      "qoj_title": "Make a Loop"
+      "boj_title": "Move One Coin",
+      "qoj_problem_id": 5473,
+      "qoj_title": "Move One Coin",
+      "qoj_url": "https://qoj.ac/problem/5473",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27419,
+        "qoj_problem_id": 5475,
+        "qoj_url": "https://qoj.ac/problem/5475",
+        "match_type": "contest_export",
+        "qoj_title": "Make a Loop"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27420": {
       "boj_problem_id": 27420,
+      "boj_title": "Incredibly Cute Penguin Chicks",
       "qoj_problem_id": 5474,
+      "qoj_title": "Incredibly Cute Penguin Chicks",
       "qoj_url": "https://qoj.ac/problem/5474",
-      "match_type": "contest_export",
-      "qoj_title": "Incredibly Cute Penguin Chicks"
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27420,
+        "qoj_problem_id": 5474,
+        "qoj_url": "https://qoj.ac/problem/5474",
+        "match_type": "contest_export",
+        "qoj_title": "Incredibly Cute Penguin Chicks"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27421": {
       "boj_problem_id": 27421,
-      "qoj_problem_id": 5470,
-      "qoj_url": "https://qoj.ac/problem/5470",
-      "match_type": "contest_export",
-      "qoj_title": "Hasty Santa Claus"
+      "boj_title": "Make a Loop",
+      "qoj_problem_id": 5475,
+      "qoj_title": "Make a Loop",
+      "qoj_url": "https://qoj.ac/problem/5475",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27421,
+        "qoj_problem_id": 5470,
+        "qoj_url": "https://qoj.ac/problem/5470",
+        "match_type": "contest_export",
+        "qoj_title": "Hasty Santa Claus"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27422": {
       "boj_problem_id": 27422,
-      "qoj_problem_id": 5480,
-      "qoj_url": "https://qoj.ac/problem/5480",
-      "match_type": "contest_export",
-      "qoj_title": "New Year Festival"
+      "boj_title": "Remodeling the Dungeon",
+      "qoj_problem_id": 5476,
+      "qoj_title": "Remodeling the Dungeon",
+      "qoj_url": "https://qoj.ac/problem/5476",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27422,
+        "qoj_problem_id": 5480,
+        "qoj_url": "https://qoj.ac/problem/5480",
+        "match_type": "contest_export",
+        "qoj_title": "New Year Festival"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27423": {
       "boj_problem_id": 27423,
+      "boj_title": "Cake Decoration",
       "qoj_problem_id": 5477,
+      "qoj_title": "Cake Decoration",
       "qoj_url": "https://qoj.ac/problem/5477",
-      "match_type": "contest_export",
-      "qoj_title": "Cake Decoration"
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27423,
+        "qoj_problem_id": 5477,
+        "qoj_url": "https://qoj.ac/problem/5477",
+        "match_type": "contest_export",
+        "qoj_title": "Cake Decoration"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27424": {
       "boj_problem_id": 27424,
-      "qoj_problem_id": 5479,
-      "qoj_url": "https://qoj.ac/problem/5479",
-      "match_type": "contest_export",
-      "qoj_title": "Traveling Salesperson in an Island"
+      "boj_title": "Quiz Contest",
+      "qoj_problem_id": 5478,
+      "qoj_title": "Quiz Contest",
+      "qoj_url": "https://qoj.ac/problem/5478",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27424,
+        "qoj_problem_id": 5479,
+        "qoj_url": "https://qoj.ac/problem/5479",
+        "match_type": "contest_export",
+        "qoj_title": "Traveling Salesperson in an Island"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27425": {
       "boj_problem_id": 27425,
-      "qoj_problem_id": 5478,
-      "qoj_url": "https://qoj.ac/problem/5478",
-      "match_type": "contest_export",
-      "qoj_title": "Quiz Contest"
+      "boj_title": "Traveling Salesperson in an Island",
+      "qoj_problem_id": 5479,
+      "qoj_title": "Traveling Salesperson in an Island",
+      "qoj_url": "https://qoj.ac/problem/5479",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27425,
+        "qoj_problem_id": 5478,
+        "qoj_url": "https://qoj.ac/problem/5478",
+        "match_type": "contest_export",
+        "qoj_title": "Quiz Contest"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27426": {
       "boj_problem_id": 27426,
-      "qoj_problem_id": 5471,
-      "qoj_url": "https://qoj.ac/problem/5471",
-      "match_type": "contest_export",
-      "qoj_title": "Interactive Number Guessing"
+      "boj_title": "New Year Festival",
+      "qoj_problem_id": 5480,
+      "qoj_title": "New Year Festival",
+      "qoj_url": "https://qoj.ac/problem/5480",
+      "method": "manual_non_ac_title_correction",
+      "source_layer": "manual_non_ac_review",
+      "previous_mapping": {
+        "boj_problem_id": 27426,
+        "qoj_problem_id": 5471,
+        "qoj_url": "https://qoj.ac/problem/5471",
+        "match_type": "contest_export",
+        "qoj_title": "Interactive Number Guessing"
+      },
+      "review_note": "Corrected after QOJ profile non-AC review and solved.ac BOJ title comparison."
     },
     "27459": {
       "boj_problem_id": 27459,
@@ -52463,34 +52405,6 @@
       "match_type": "contest_export",
       "qoj_title": "Sličnost"
     },
-    "28388": {
-      "boj_problem_id": 28388,
-      "qoj_problem_id": 13597,
-      "qoj_url": "https://qoj.ac/problem/13597",
-      "match_type": "contest_export",
-      "qoj_title": "Bliskost"
-    },
-    "28389": {
-      "boj_problem_id": 28389,
-      "qoj_problem_id": 13598,
-      "qoj_url": "https://qoj.ac/problem/13598",
-      "match_type": "contest_export",
-      "qoj_title": "Nestabilnost"
-    },
-    "28390": {
-      "boj_problem_id": 28390,
-      "qoj_problem_id": 13599,
-      "qoj_url": "https://qoj.ac/problem/13599",
-      "match_type": "contest_export",
-      "qoj_title": "Netrpeljivost"
-    },
-    "28391": {
-      "boj_problem_id": 28391,
-      "qoj_problem_id": 13600,
-      "qoj_url": "https://qoj.ac/problem/13600",
-      "match_type": "contest_export",
-      "qoj_title": "Sličnost"
-    },
     "28416": {
       "boj_problem_id": 28416,
       "qoj_problem_id": 8902,
@@ -52574,34 +52488,6 @@
       "qoj_url": "https://qoj.ac/problem/6388",
       "match_type": "contest_export",
       "qoj_title": "Network"
-    },
-    "28495": {
-      "boj_problem_id": 28495,
-      "qoj_problem_id": 6288,
-      "qoj_url": "https://qoj.ac/problem/6288",
-      "match_type": "contest_export",
-      "qoj_title": "词典"
-    },
-    "28496": {
-      "boj_problem_id": 28496,
-      "qoj_problem_id": 6289,
-      "qoj_url": "https://qoj.ac/problem/6289",
-      "match_type": "contest_export",
-      "qoj_title": "三值逻辑"
-    },
-    "28497": {
-      "boj_problem_id": 28497,
-      "qoj_problem_id": 6290,
-      "qoj_url": "https://qoj.ac/problem/6290",
-      "match_type": "contest_export",
-      "qoj_title": "双序列拓展"
-    },
-    "28498": {
-      "boj_problem_id": 28498,
-      "qoj_problem_id": 6291,
-      "qoj_url": "https://qoj.ac/problem/6291",
-      "match_type": "contest_export",
-      "qoj_title": "天天爱打卡"
     },
     "28500": {
       "boj_problem_id": 28500,
@@ -56032,34 +55918,6 @@
       "qoj_url": "https://qoj.ac/problem/8812",
       "match_type": "contest_export",
       "qoj_title": "Library 3"
-    },
-    "32003": {
-      "boj_problem_id": 32003,
-      "qoj_problem_id": 8894,
-      "qoj_url": "https://qoj.ac/problem/8894",
-      "match_type": "contest_export",
-      "qoj_title": "CERN"
-    },
-    "32004": {
-      "boj_problem_id": 32004,
-      "qoj_problem_id": 8895,
-      "qoj_url": "https://qoj.ac/problem/8895",
-      "match_type": "contest_export",
-      "qoj_title": "Koreografija"
-    },
-    "32005": {
-      "boj_problem_id": 32005,
-      "qoj_problem_id": 8896,
-      "qoj_url": "https://qoj.ac/problem/8896",
-      "match_type": "contest_export",
-      "qoj_title": "Ministarstvo"
-    },
-    "32006": {
-      "boj_problem_id": 32006,
-      "qoj_problem_id": 8897,
-      "qoj_url": "https://qoj.ac/problem/8897",
-      "match_type": "contest_export",
-      "qoj_title": "Sirologija"
     },
     "32007": {
       "boj_problem_id": 32007,
@@ -60998,34 +60856,6 @@
     },
     "34571": {
       "boj_problem_id": 34571,
-      "qoj_problem_id": 10201,
-      "qoj_url": "https://qoj.ac/problem/10201",
-      "match_type": "contest_export",
-      "qoj_title": "Lirili Larila"
-    },
-    "34573": {
-      "boj_problem_id": 34573,
-      "qoj_problem_id": 10198,
-      "qoj_url": "https://qoj.ac/problem/10198",
-      "match_type": "contest_export",
-      "qoj_title": "Automatizacija"
-    },
-    "34574": {
-      "boj_problem_id": 34574,
-      "qoj_problem_id": 10199,
-      "qoj_url": "https://qoj.ac/problem/10199",
-      "match_type": "contest_export",
-      "qoj_title": "Bolivija"
-    },
-    "34575": {
-      "boj_problem_id": 34575,
-      "qoj_problem_id": 10200,
-      "qoj_url": "https://qoj.ac/problem/10200",
-      "match_type": "contest_export",
-      "qoj_title": "Korupcija"
-    },
-    "34576": {
-      "boj_problem_id": 34576,
       "qoj_problem_id": 10201,
       "qoj_url": "https://qoj.ac/problem/10201",
       "match_type": "contest_export",
