@@ -2,7 +2,7 @@
   "metadata": {
     "schema_version": "public-v1",
     "exported_at": "2026-05-23T00:00:40+0900",
-    "mapping_count": 7868,
+    "mapping_count": 7740,
     "description": "BOJ problem ID to QOJ problem ID mapping.",
     "notes": [
       "This public export intentionally omits internal review logs, source category paths, previous mapping records, and account-specific data.",
@@ -29,7 +29,12 @@
       "Removed Singapore NOI, CCPC Weihai/Open Cup Weihai, POI year-confusion, and BOJ 13504 false mappings."
     ],
     "petrozavodsk_2021_day4_fix_applied_at": "2026-05-23T01:39:11",
-    "petrozavodsk_2021_day4_reassigned_count": 10
+    "petrozavodsk_2021_day4_reassigned_count": 10,
+    "title_mismatch_review_fix_applied_at": "2026-05-23T02:13:59+09:00",
+    "title_mismatch_review_reassigned_count": 62,
+    "title_mismatch_review_added_count": 1,
+    "title_mismatch_review_removed_count": 61,
+    "title_mismatch_review_final_count": 7740
   },
   "boj_to_qoj": {
     "1014": 5769,
@@ -494,16 +499,6 @@
     "5625": 16652,
     "5626": 16653,
     "5627": 16654,
-    "5628": 17332,
-    "5629": 17333,
-    "5630": 17334,
-    "5631": 17335,
-    "5632": 17336,
-    "5633": 17337,
-    "5634": 17338,
-    "5635": 17339,
-    "5636": 17340,
-    "5637": 17341,
     "5811": 1502,
     "5812": 1503,
     "5819": 2001,
@@ -1686,14 +1681,14 @@
     "12515": 5857,
     "12516": 5857,
     "12531": 14011,
-    "12532": 14012,
-    "12533": 14013,
+    "12532": 14011,
+    "12533": 14012,
     "12534": 14012,
     "12535": 14013,
     "12536": 14013,
     "12537": 14008,
-    "12538": 14009,
-    "12539": 14010,
+    "12538": 14008,
+    "12539": 14009,
     "12540": 14009,
     "12541": 14010,
     "12542": 14010,
@@ -3085,9 +3080,6 @@
     "18218": 1195,
     "18219": 1196,
     "18220": 1197,
-    "18255": 3406,
-    "18256": 3402,
-    "18257": 3408,
     "18259": 1909,
     "18260": 1910,
     "18261": 1911,
@@ -3183,7 +3175,6 @@
     "18489": 1455,
     "18490": 1456,
     "18491": 1457,
-    "18492": 1458,
     "18493": 1459,
     "18494": 1460,
     "18495": 1461,
@@ -3668,14 +3659,14 @@
     "19123": 12607,
     "19124": 7124,
     "19125": 7125,
-    "19126": 7126,
-    "19127": 7127,
-    "19128": 7128,
+    "19126": 7131,
+    "19127": 7126,
+    "19128": 7127,
     "19129": 7129,
     "19130": 7130,
-    "19131": 7131,
-    "19132": 7132,
-    "19133": 7133,
+    "19131": 7128,
+    "19132": 7133,
+    "19133": 7132,
     "19134": 4274,
     "19135": 4275,
     "19136": 4276,
@@ -4822,7 +4813,6 @@
     "22885": 12444,
     "22886": 12445,
     "22887": 12446,
-    "22888": 12447,
     "22889": 12448,
     "22890": 12449,
     "22891": 12450,
@@ -4906,8 +4896,8 @@
     "23132": 1846,
     "23133": 1847,
     "23134": 1848,
-    "23135": 1851,
-    "23136": 1852,
+    "23135": 1850,
+    "23136": 1851,
     "23137": 1852,
     "23138": 1853,
     "23139": 1854,
@@ -5191,11 +5181,11 @@
     "23777": 2302,
     "23778": 2303,
     "23779": 2221,
-    "23780": 2223,
+    "23780": 2222,
     "23781": 2223,
-    "23782": 2226,
-    "23783": 2228,
-    "23784": 2229,
+    "23782": 2224,
+    "23783": 2225,
+    "23784": 2226,
     "23785": 2227,
     "23786": 2228,
     "23787": 2229,
@@ -5393,18 +5383,18 @@
     "24762": 2969,
     "24763": 2970,
     "24764": 2971,
-    "24843": 2133,
-    "24844": 2134,
-    "24845": 2135,
-    "24846": 2136,
-    "24847": 2137,
-    "24848": 2138,
-    "24849": 2139,
-    "24850": 2140,
-    "24851": 2141,
-    "24852": 2142,
-    "24853": 2143,
-    "24854": 2144,
+    "24843": 1893,
+    "24844": 1894,
+    "24845": 1895,
+    "24846": 1896,
+    "24847": 1897,
+    "24848": 1898,
+    "24849": 1899,
+    "24850": 1900,
+    "24851": 1901,
+    "24852": 1902,
+    "24853": 1903,
+    "24854": 1904,
     "24855": 2133,
     "24856": 2134,
     "24857": 2135,
@@ -5581,7 +5571,6 @@
     "25256": 4195,
     "25257": 4196,
     "25258": 4197,
-    "25265": 4250,
     "25266": 4251,
     "25267": 4252,
     "25268": 4284,
@@ -5634,7 +5623,6 @@
     "25442": 4565,
     "25443": 4566,
     "25444": 13593,
-    "25445": 13594,
     "25446": 13595,
     "25447": 13596,
     "25535": 17602,
@@ -5675,8 +5663,6 @@
     "25677": 4830,
     "25678": 4831,
     "25679": 4832,
-    "25680": 4833,
-    "25681": 4834,
     "25692": 4835,
     "25693": 4836,
     "25694": 4837,
@@ -5996,10 +5982,6 @@
     "26874": 5277,
     "26875": 5278,
     "26876": 5279,
-    "26934": 9505,
-    "26935": 9504,
-    "26936": 9506,
-    "26937": 9507,
     "26966": 5336,
     "26967": 5337,
     "27288": 5162,
@@ -6029,9 +6011,9 @@
     "27389": 5486,
     "27390": 5487,
     "27391": 5488,
-    "27392": 5490,
-    "27393": 5491,
-    "27394": 5492,
+    "27392": 5489,
+    "27393": 5490,
+    "27394": 5491,
     "27395": 5492,
     "27398": 87,
     "27399": 88,
@@ -6135,8 +6117,8 @@
     "27765": 12089,
     "27766": 12090,
     "27767": 12091,
-    "27768": 12092,
-    "27769": 12093,
+    "27768": 12093,
+    "27769": 12092,
     "27770": 11450,
     "27771": 11451,
     "27772": 11452,
@@ -6302,7 +6284,6 @@
     "28212": 6417,
     "28221": 6527,
     "28222": 6528,
-    "28223": 6529,
     "28224": 15641,
     "28225": 15642,
     "28226": 15643,
@@ -6401,22 +6382,6 @@
     "29821": 17287,
     "29822": 17288,
     "29880": 7281,
-    "30123": 3401,
-    "30124": 3403,
-    "30125": 3404,
-    "30126": 3405,
-    "30127": 3409,
-    "30128": 3410,
-    "30138": 17517,
-    "30139": 17518,
-    "30140": 17519,
-    "30141": 17520,
-    "30142": 17521,
-    "30143": 17522,
-    "30144": 17523,
-    "30145": 17524,
-    "30146": 17525,
-    "30147": 17526,
     "30292": 10000,
     "30293": 10001,
     "30294": 10002,
@@ -6547,17 +6512,17 @@
     "30674": 16273,
     "30675": 16274,
     "30852": 7945,
-    "30853": 7553,
+    "30853": 7946,
     "30854": 7947,
-    "30855": 7548,
+    "30855": 7948,
     "30856": 7949,
     "30857": 7950,
     "30858": 7951,
     "30859": 7952,
     "30860": 7953,
-    "30861": 7547,
-    "30862": 7549,
-    "30863": 7552,
+    "30861": 7954,
+    "30862": 7955,
+    "30863": 7956,
     "30898": 7907,
     "30900": 7909,
     "30903": 7912,
@@ -6621,7 +6586,6 @@
     "31120": 2837,
     "31121": 2838,
     "31122": 2839,
-    "31123": 4748,
     "31124": 4749,
     "31125": 4750,
     "31126": 4751,
@@ -6718,12 +6682,11 @@
     "31342": 18097,
     "31343": 18098,
     "31344": 18099,
-    "31345": 18100,
     "31346": 7144,
     "31347": 7145,
     "31348": 7146,
-    "31349": 7147,
-    "31350": 7148,
+    "31349": 7148,
+    "31350": 7147,
     "31351": 7149,
     "31352": 7150,
     "31353": 7151,
@@ -6909,32 +6872,29 @@
     "32122": 17538,
     "32123": 17539,
     "32257": 9094,
-    "32260": 9238,
-    "32261": 9239,
-    "32262": 9240,
-    "32263": 9241,
+    "32260": 13546,
+    "32261": 13547,
+    "32262": 13548,
+    "32263": 13549,
     "32264": 9238,
     "32265": 9237,
     "32266": 9236,
-    "32267": 13549,
-    "32268": 9236,
-    "32269": 9237,
+    "32267": 9239,
+    "32268": 9240,
+    "32269": 9241,
     "32415": 8805,
     "32416": 8806,
     "32418": 8808,
     "32419": 8809,
-    "32420": 10401,
     "32421": 10402,
     "32422": 10403,
     "32423": 10404,
     "32424": 10405,
     "32425": 10406,
-    "32426": 10407,
     "32427": 10408,
     "32428": 10409,
     "32429": 10410,
     "32430": 10411,
-    "32431": 10412,
     "32444": 9186,
     "32446": 9188,
     "32447": 9189,
@@ -7063,18 +7023,19 @@
     "32899": 9821,
     "32900": 9822,
     "32901": 9823,
-    "32916": 15407,
-    "32917": 15408,
-    "32918": 15409,
-    "32919": 15410,
-    "32920": 15411,
-    "32921": 15412,
-    "32922": 15413,
-    "32923": 15414,
-    "32924": 15415,
-    "32925": 15416,
-    "32926": 15417,
-    "32927": 15418,
+    "32916": 9824,
+    "32917": 9825,
+    "32918": 9826,
+    "32919": 9827,
+    "32920": 9828,
+    "32921": 9829,
+    "32922": 9830,
+    "32923": 9831,
+    "32924": 9832,
+    "32925": 9833,
+    "32926": 9834,
+    "32927": 9835,
+    "32928": 9836,
     "32999": 10474,
     "33000": 10475,
     "33001": 10476,
@@ -7216,7 +7177,6 @@
     "33340": 7723,
     "33341": 7724,
     "33342": 7725,
-    "33343": 7726,
     "33344": 7727,
     "33345": 9321,
     "33346": 9322,
@@ -7373,18 +7333,6 @@
     "33738": 10964,
     "33739": 10965,
     "33740": 10966,
-    "33741": 9167,
-    "33742": 9168,
-    "33743": 9169,
-    "33744": 9170,
-    "33745": 9171,
-    "33746": 9172,
-    "33747": 9173,
-    "33748": 9174,
-    "33749": 9175,
-    "33750": 9176,
-    "33751": 9177,
-    "33752": 9178,
     "33772": 11439,
     "33773": 11440,
     "33775": 11442,
@@ -7531,7 +7479,6 @@
     "34481": 14606,
     "34482": 14607,
     "34483": 14608,
-    "34484": 14609,
     "34485": 14610,
     "34486": 14611,
     "34487": 14612,
@@ -7553,7 +7500,6 @@
     "34526": 12414,
     "34527": 12415,
     "34528": 12416,
-    "34568": 10198,
     "34569": 10199,
     "34570": 10200,
     "34571": 10201,
@@ -7713,7 +7659,6 @@
     "35175": 15793,
     "35176": 15794,
     "35177": 15795,
-    "35178": 15796,
     "35179": 10256,
     "35180": 10257,
     "35181": 10258,
@@ -7812,9 +7757,9 @@
     "35387": 17446,
     "35388": 17447,
     "35389": 17448,
-    "35390": 17450,
-    "35391": 17451,
-    "35392": 17453,
+    "35390": 17449,
+    "35391": 17450,
+    "35392": 17451,
     "35393": 17452,
     "35394": 17453,
     "35395": 17454,
@@ -11067,76 +11012,6 @@
       "qoj_url": "https://qoj.ac/problem/16654",
       "match_type": "title_match",
       "qoj_title": "BAKTERIJE"
-    },
-    "5628": {
-      "boj_problem_id": 5628,
-      "qoj_problem_id": 17332,
-      "qoj_url": "https://qoj.ac/problem/17332",
-      "match_type": "contest_export",
-      "qoj_title": "Ginkgo Numbers"
-    },
-    "5629": {
-      "boj_problem_id": 5629,
-      "qoj_problem_id": 17333,
-      "qoj_url": "https://qoj.ac/problem/17333",
-      "match_type": "contest_export",
-      "qoj_title": "Stylish"
-    },
-    "5630": {
-      "boj_problem_id": 5630,
-      "qoj_problem_id": 17334,
-      "qoj_url": "https://qoj.ac/problem/17334",
-      "match_type": "contest_export",
-      "qoj_title": "One-Dimensional Cellular Automaton"
-    },
-    "5631": {
-      "boj_problem_id": 5631,
-      "qoj_problem_id": 17335,
-      "qoj_url": "https://qoj.ac/problem/17335",
-      "match_type": "contest_export",
-      "qoj_title": "Find the Outlier"
-    },
-    "5632": {
-      "boj_problem_id": 5632,
-      "qoj_problem_id": 17336,
-      "qoj_url": "https://qoj.ac/problem/17336",
-      "match_type": "contest_export",
-      "qoj_title": "Sliding Block Puzzle"
-    },
-    "5633": {
-      "boj_problem_id": 5633,
-      "qoj_problem_id": 17337,
-      "qoj_url": "https://qoj.ac/problem/17337",
-      "match_type": "contest_export",
-      "qoj_title": "Never Wait for Weights"
-    },
-    "5634": {
-      "boj_problem_id": 5634,
-      "qoj_problem_id": 17338,
-      "qoj_url": "https://qoj.ac/problem/17338",
-      "match_type": "contest_export",
-      "qoj_title": "Let There Be Light"
-    },
-    "5635": {
-      "boj_problem_id": 5635,
-      "qoj_problem_id": 17339,
-      "qoj_url": "https://qoj.ac/problem/17339",
-      "match_type": "contest_export",
-      "qoj_title": "Company Organization"
-    },
-    "5636": {
-      "boj_problem_id": 5636,
-      "qoj_problem_id": 17340,
-      "qoj_url": "https://qoj.ac/problem/17340",
-      "match_type": "contest_export",
-      "qoj_title": "Beautiful Spacing"
-    },
-    "5637": {
-      "boj_problem_id": 5637,
-      "qoj_problem_id": 17341,
-      "qoj_url": "https://qoj.ac/problem/17341",
-      "match_type": "contest_export",
-      "qoj_title": "Cubic Colonies"
     },
     "5811": {
       "boj_problem_id": 5811,
@@ -19468,17 +19343,23 @@
     },
     "12532": {
       "boj_problem_id": 12532,
-      "qoj_problem_id": 14012,
-      "qoj_url": "https://qoj.ac/problem/14012",
-      "match_type": "contest_export",
-      "qoj_title": "Battlefield"
+      "qoj_problem_id": 14011,
+      "qoj_url": "https://qoj.ac/problem/14011",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Vanishing Numbers",
+      "boj_titles": [
+        "Vanishing Numbers (Large)"
+      ]
     },
     "12533": {
       "boj_problem_id": 12533,
-      "qoj_problem_id": 14013,
-      "qoj_url": "https://qoj.ac/problem/14013",
-      "match_type": "contest_export",
-      "qoj_title": "Radio Receiver"
+      "qoj_problem_id": 14012,
+      "qoj_url": "https://qoj.ac/problem/14012",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Battlefield",
+      "boj_titles": [
+        "Battlefield (Small)"
+      ]
     },
     "12534": {
       "boj_problem_id": 12534,
@@ -19510,17 +19391,23 @@
     },
     "12538": {
       "boj_problem_id": 12538,
-      "qoj_problem_id": 14009,
-      "qoj_url": "https://qoj.ac/problem/14009",
-      "match_type": "contest_export",
-      "qoj_title": "Investing at the Market"
+      "qoj_problem_id": 14008,
+      "qoj_url": "https://qoj.ac/problem/14008",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Closing the Loop",
+      "boj_titles": [
+        "Closing the Loop (Large)"
+      ]
     },
     "12539": {
       "boj_problem_id": 12539,
-      "qoj_problem_id": 14010,
-      "qoj_url": "https://qoj.ac/problem/14010",
-      "match_type": "contest_export",
-      "qoj_title": "Building a House"
+      "qoj_problem_id": 14009,
+      "qoj_url": "https://qoj.ac/problem/14009",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Investing at the Market",
+      "boj_titles": [
+        "Investing at the Market (Small)"
+      ]
     },
     "12540": {
       "boj_problem_id": 12540,
@@ -29337,27 +29224,6 @@
       "match_type": "contest_export",
       "qoj_title": "Draw in Straight Lines"
     },
-    "18255": {
-      "boj_problem_id": 18255,
-      "qoj_problem_id": 3406,
-      "qoj_url": "https://qoj.ac/problem/3406",
-      "match_type": "contest_export",
-      "qoj_title": "Final Combat"
-    },
-    "18256": {
-      "boj_problem_id": 18256,
-      "qoj_problem_id": 3402,
-      "qoj_url": "https://qoj.ac/problem/3402",
-      "match_type": "contest_export",
-      "qoj_title": "Box Relations"
-    },
-    "18257": {
-      "boj_problem_id": 18257,
-      "qoj_problem_id": 3408,
-      "qoj_url": "https://qoj.ac/problem/3408",
-      "match_type": "contest_export",
-      "qoj_title": "Help Bubu"
-    },
     "18259": {
       "boj_problem_id": 18259,
       "qoj_problem_id": 1909,
@@ -30022,13 +29888,6 @@
       "qoj_url": "https://qoj.ac/problem/1457",
       "match_type": "contest_export",
       "qoj_title": "FFT Algorithm"
-    },
-    "18492": {
-      "boj_problem_id": 18492,
-      "qoj_problem_id": 1458,
-      "qoj_url": "https://qoj.ac/problem/1458",
-      "match_type": "contest_export",
-      "qoj_title": "Binary Search Algorithm"
     },
     "18493": {
       "boj_problem_id": 18493,
@@ -33420,24 +33279,33 @@
     },
     "19126": {
       "boj_problem_id": 19126,
-      "qoj_problem_id": 7126,
-      "qoj_url": "https://qoj.ac/problem/7126",
-      "match_type": "contest_export",
-      "qoj_title": "Control point"
+      "qoj_problem_id": 7131,
+      "qoj_url": "https://qoj.ac/problem/7131",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Random points",
+      "boj_titles": [
+        "Random Points"
+      ]
     },
     "19127": {
       "boj_problem_id": 19127,
-      "qoj_problem_id": 7127,
-      "qoj_url": "https://qoj.ac/problem/7127",
-      "match_type": "contest_export",
-      "qoj_title": "3 points"
+      "qoj_problem_id": 7126,
+      "qoj_url": "https://qoj.ac/problem/7126",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Control point",
+      "boj_titles": [
+        "Control Point"
+      ]
     },
     "19128": {
       "boj_problem_id": 19128,
-      "qoj_problem_id": 7128,
-      "qoj_url": "https://qoj.ac/problem/7128",
-      "match_type": "contest_export",
-      "qoj_title": "Huge products"
+      "qoj_problem_id": 7127,
+      "qoj_url": "https://qoj.ac/problem/7127",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "3 points",
+      "boj_titles": [
+        "Three Points"
+      ]
     },
     "19129": {
       "boj_problem_id": 19129,
@@ -33455,24 +33323,33 @@
     },
     "19131": {
       "boj_problem_id": 19131,
-      "qoj_problem_id": 7131,
-      "qoj_url": "https://qoj.ac/problem/7131",
-      "match_type": "contest_export",
-      "qoj_title": "Random points"
+      "qoj_problem_id": 7128,
+      "qoj_url": "https://qoj.ac/problem/7128",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Huge products",
+      "boj_titles": [
+        "Huge Products"
+      ]
     },
     "19132": {
       "boj_problem_id": 19132,
-      "qoj_problem_id": 7132,
-      "qoj_url": "https://qoj.ac/problem/7132",
-      "match_type": "contest_export",
-      "qoj_title": "Subset sums"
+      "qoj_problem_id": 7133,
+      "qoj_url": "https://qoj.ac/problem/7133",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Substring query",
+      "boj_titles": [
+        "Substring Query"
+      ]
     },
     "19133": {
       "boj_problem_id": 19133,
-      "qoj_problem_id": 7133,
-      "qoj_url": "https://qoj.ac/problem/7133",
-      "match_type": "contest_export",
-      "qoj_title": "Substring query"
+      "qoj_problem_id": 7132,
+      "qoj_url": "https://qoj.ac/problem/7132",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Subset sums",
+      "boj_titles": [
+        "Subset Sum"
+      ]
     },
     "19134": {
       "boj_problem_id": 19134,
@@ -41606,13 +41483,6 @@
       "match_type": "contest_export",
       "qoj_title": "Reversort Engineering"
     },
-    "22888": {
-      "boj_problem_id": 22888,
-      "qoj_problem_id": 12447,
-      "qoj_url": "https://qoj.ac/problem/12447",
-      "match_type": "contest_export",
-      "qoj_title": "Median Sort"
-    },
     "22889": {
       "boj_problem_id": 22889,
       "qoj_problem_id": 12448,
@@ -42196,17 +42066,23 @@
     },
     "23135": {
       "boj_problem_id": 23135,
-      "qoj_problem_id": 1851,
-      "qoj_url": "https://qoj.ac/problem/1851",
-      "match_type": "contest_export",
-      "qoj_title": "Directed Acyclic Graph"
+      "qoj_problem_id": 1850,
+      "qoj_url": "https://qoj.ac/problem/1850",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Magic Box",
+      "boj_titles": [
+        "Magic Box"
+      ]
     },
     "23136": {
       "boj_problem_id": 23136,
-      "qoj_problem_id": 1852,
-      "qoj_url": "https://qoj.ac/problem/1852",
-      "match_type": "contest_export",
-      "qoj_title": "Paint"
+      "qoj_problem_id": 1851,
+      "qoj_url": "https://qoj.ac/problem/1851",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Directed Acyclic Graph",
+      "boj_titles": [
+        "Directed Acyclic Graph"
+      ]
     },
     "23137": {
       "boj_problem_id": 23137,
@@ -44191,10 +44067,13 @@
     },
     "23780": {
       "boj_problem_id": 23780,
-      "qoj_problem_id": 2223,
-      "qoj_url": "https://qoj.ac/problem/2223",
-      "match_type": "contest_export",
-      "qoj_title": "Mad Diamond"
+      "qoj_problem_id": 2222,
+      "qoj_url": "https://qoj.ac/problem/2222",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "TomTom Cruise",
+      "boj_titles": [
+        "TomTom Cruise"
+      ]
     },
     "23781": {
       "boj_problem_id": 23781,
@@ -44205,24 +44084,33 @@
     },
     "23782": {
       "boj_problem_id": 23782,
-      "qoj_problem_id": 2226,
-      "qoj_url": "https://qoj.ac/problem/2226",
-      "match_type": "contest_export",
-      "qoj_title": "Eidam-Sand Lair"
+      "qoj_problem_id": 2224,
+      "qoj_url": "https://qoj.ac/problem/2224",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Burizon Fort",
+      "boj_titles": [
+        "Burizon Fort"
+      ]
     },
     "23783": {
       "boj_problem_id": 23783,
-      "qoj_problem_id": 2228,
-      "qoj_url": "https://qoj.ac/problem/2228",
-      "match_type": "contest_export",
-      "qoj_title": "Bread Pit"
+      "qoj_problem_id": 2225,
+      "qoj_url": "https://qoj.ac/problem/2225",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Terrace Hill",
+      "boj_titles": [
+        "Terrace Hill"
+      ]
     },
     "23784": {
       "boj_problem_id": 23784,
-      "qoj_problem_id": 2229,
-      "qoj_url": "https://qoj.ac/problem/2229",
-      "match_type": "contest_export",
-      "qoj_title": "Cyanide Rivers"
+      "qoj_problem_id": 2226,
+      "qoj_url": "https://qoj.ac/problem/2226",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Eidam-Sand Lair",
+      "boj_titles": [
+        "Eidam-Sand Lair"
+      ]
     },
     "23785": {
       "boj_problem_id": 23785,
@@ -45605,87 +45493,123 @@
     },
     "24843": {
       "boj_problem_id": 24843,
-      "qoj_problem_id": 2133,
-      "qoj_url": "https://qoj.ac/problem/2133",
-      "match_type": "contest_export",
-      "qoj_title": "Natives"
+      "qoj_problem_id": 1893,
+      "qoj_url": "https://qoj.ac/problem/1893",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Friendly Rooks",
+      "boj_titles": [
+        "Friendly Rooks"
+      ]
     },
     "24844": {
       "boj_problem_id": 24844,
-      "qoj_problem_id": 2134,
-      "qoj_url": "https://qoj.ac/problem/2134",
-      "match_type": "contest_export",
-      "qoj_title": "Balanced Illumination"
+      "qoj_problem_id": 1894,
+      "qoj_url": "https://qoj.ac/problem/1894",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Guess the Array",
+      "boj_titles": [
+        "Guess the Array"
+      ]
     },
     "24845": {
       "boj_problem_id": 24845,
-      "qoj_problem_id": 2135,
-      "qoj_url": "https://qoj.ac/problem/2135",
-      "match_type": "contest_export",
-      "qoj_title": "How Many Strings Are Less"
+      "qoj_problem_id": 1895,
+      "qoj_url": "https://qoj.ac/problem/1895",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Moving Cells",
+      "boj_titles": [
+        "Moving Cells"
+      ]
     },
     "24846": {
       "boj_problem_id": 24846,
-      "qoj_problem_id": 2136,
-      "qoj_url": "https://qoj.ac/problem/2136",
-      "match_type": "contest_export",
-      "qoj_title": "Exam registration"
+      "qoj_problem_id": 1896,
+      "qoj_url": "https://qoj.ac/problem/1896",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Army of Clones",
+      "boj_titles": [
+        "Army of Clones"
+      ]
     },
     "24847": {
       "boj_problem_id": 24847,
-      "qoj_problem_id": 2137,
-      "qoj_url": "https://qoj.ac/problem/2137",
-      "match_type": "contest_export",
-      "qoj_title": "Fair Robbery"
+      "qoj_problem_id": 1897,
+      "qoj_url": "https://qoj.ac/problem/1897",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Haiku",
+      "boj_titles": [
+        "Haiku"
+      ]
     },
     "24848": {
       "boj_problem_id": 24848,
-      "qoj_problem_id": 2138,
-      "qoj_url": "https://qoj.ac/problem/2138",
-      "match_type": "contest_export",
-      "qoj_title": "Counting Antibodies"
+      "qoj_problem_id": 1898,
+      "qoj_url": "https://qoj.ac/problem/1898",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Race",
+      "boj_titles": [
+        "Race"
+      ]
     },
     "24849": {
       "boj_problem_id": 24849,
-      "qoj_problem_id": 2139,
-      "qoj_url": "https://qoj.ac/problem/2139",
-      "match_type": "contest_export",
-      "qoj_title": "The Math of Sailing"
+      "qoj_problem_id": 1899,
+      "qoj_url": "https://qoj.ac/problem/1899",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Maximaze XOR sum",
+      "boj_titles": [
+        "Maximaze XOR sum"
+      ]
     },
     "24850": {
       "boj_problem_id": 24850,
-      "qoj_problem_id": 2140,
-      "qoj_url": "https://qoj.ac/problem/2140",
-      "match_type": "contest_export",
-      "qoj_title": "Lots of Parabolas"
+      "qoj_problem_id": 1900,
+      "qoj_url": "https://qoj.ac/problem/1900",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Octopus Game",
+      "boj_titles": [
+        "Octopus Game"
+      ]
     },
     "24851": {
       "boj_problem_id": 24851,
-      "qoj_problem_id": 2141,
-      "qoj_url": "https://qoj.ac/problem/2141",
-      "match_type": "contest_export",
-      "qoj_title": "Wheel of Fortune"
+      "qoj_problem_id": 1901,
+      "qoj_url": "https://qoj.ac/problem/1901",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Third Group Exam",
+      "boj_titles": [
+        "Third Group Exam"
+      ]
     },
     "24852": {
       "boj_problem_id": 24852,
-      "qoj_problem_id": 2142,
-      "qoj_url": "https://qoj.ac/problem/2142",
-      "match_type": "contest_export",
-      "qoj_title": "Yurik and Woodwork Lesson"
+      "qoj_problem_id": 1902,
+      "qoj_url": "https://qoj.ac/problem/1902",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Computational ethnography",
+      "boj_titles": [
+        "Computational ethnography"
+      ]
     },
     "24853": {
       "boj_problem_id": 24853,
-      "qoj_problem_id": 2143,
-      "qoj_url": "https://qoj.ac/problem/2143",
-      "match_type": "contest_export",
-      "qoj_title": "Railroad sorting"
+      "qoj_problem_id": 1903,
+      "qoj_url": "https://qoj.ac/problem/1903",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Work or Sleep!",
+      "boj_titles": [
+        "Work or Sleep!"
+      ]
     },
     "24854": {
       "boj_problem_id": 24854,
-      "qoj_problem_id": 2144,
-      "qoj_url": "https://qoj.ac/problem/2144",
-      "match_type": "contest_export",
-      "qoj_title": "Birthday"
+      "qoj_problem_id": 1904,
+      "qoj_url": "https://qoj.ac/problem/1904",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Permutation Transformation",
+      "boj_titles": [
+        "Permutation Transformation"
+      ]
     },
     "24855": {
       "boj_problem_id": 24855,
@@ -46919,13 +46843,6 @@
       "match_type": "title_match",
       "qoj_title": "Natural Navigation"
     },
-    "25265": {
-      "boj_problem_id": 25265,
-      "qoj_problem_id": 4250,
-      "qoj_url": "https://qoj.ac/problem/4250",
-      "match_type": "contest_export",
-      "qoj_title": "Mars"
-    },
     "25266": {
       "boj_problem_id": 25266,
       "qoj_problem_id": 4251,
@@ -47290,13 +47207,6 @@
       "match_type": "contest_export",
       "qoj_title": "Mađioničar"
     },
-    "25445": {
-      "boj_problem_id": 25445,
-      "qoj_problem_id": 13594,
-      "qoj_url": "https://qoj.ac/problem/13594",
-      "match_type": "contest_export",
-      "qoj_title": "Mensza"
-    },
     "25446": {
       "boj_problem_id": 25446,
       "qoj_problem_id": 13595,
@@ -47576,20 +47486,6 @@
       "qoj_url": "https://qoj.ac/problem/4832",
       "match_type": "category_order",
       "qoj_title": "Telepathy"
-    },
-    "25680": {
-      "boj_problem_id": 25680,
-      "qoj_problem_id": 4833,
-      "qoj_url": "https://qoj.ac/problem/4833",
-      "match_type": "category_order",
-      "qoj_title": "Tetra-puzzle"
-    },
-    "25681": {
-      "boj_problem_id": 25681,
-      "qoj_problem_id": 4834,
-      "qoj_url": "https://qoj.ac/problem/4834",
-      "match_type": "category_order",
-      "qoj_title": "Trijection"
     },
     "25692": {
       "boj_problem_id": 25692,
@@ -49824,34 +49720,6 @@
       "match_type": "contest_export",
       "qoj_title": "New Time"
     },
-    "26934": {
-      "boj_problem_id": 26934,
-      "qoj_problem_id": 9505,
-      "qoj_url": "https://qoj.ac/problem/9505",
-      "match_type": "contest_export",
-      "qoj_title": "KOLO"
-    },
-    "26935": {
-      "boj_problem_id": 26935,
-      "qoj_problem_id": 9504,
-      "qoj_url": "https://qoj.ac/problem/9504",
-      "match_type": "contest_export",
-      "qoj_title": "HRASTOVI"
-    },
-    "26936": {
-      "boj_problem_id": 26936,
-      "qoj_problem_id": 9506,
-      "qoj_url": "https://qoj.ac/problem/9506",
-      "match_type": "contest_export",
-      "qoj_title": "LOZA"
-    },
-    "26937": {
-      "boj_problem_id": 26937,
-      "qoj_problem_id": 9507,
-      "qoj_url": "https://qoj.ac/problem/9507",
-      "match_type": "contest_export",
-      "qoj_title": "ROBOTI"
-    },
     "26966": {
       "boj_problem_id": 26966,
       "qoj_problem_id": 5336,
@@ -50057,24 +49925,33 @@
     },
     "27392": {
       "boj_problem_id": 27392,
-      "qoj_problem_id": 5490,
-      "qoj_url": "https://qoj.ac/problem/5490",
-      "match_type": "contest_export",
-      "qoj_title": "Smallest Calculated Value"
+      "qoj_problem_id": 5489,
+      "qoj_url": "https://qoj.ac/problem/5489",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Room Evacuation",
+      "boj_titles": [
+        "Room Evacuation"
+      ]
     },
     "27393": {
       "boj_problem_id": 27393,
-      "qoj_problem_id": 5491,
-      "qoj_url": "https://qoj.ac/problem/5491",
-      "match_type": "contest_export",
-      "qoj_title": "Spidey Distance"
+      "qoj_problem_id": 5490,
+      "qoj_url": "https://qoj.ac/problem/5490",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Smallest Calculated Value",
+      "boj_titles": [
+        "Smallest Calculated Value"
+      ]
     },
     "27394": {
       "boj_problem_id": 27394,
-      "qoj_problem_id": 5492,
-      "qoj_url": "https://qoj.ac/problem/5492",
-      "match_type": "contest_export",
-      "qoj_title": "Toll Roads"
+      "qoj_problem_id": 5491,
+      "qoj_url": "https://qoj.ac/problem/5491",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Spidey Distance",
+      "boj_titles": [
+        "Spidey Distance"
+      ]
     },
     "27395": {
       "boj_problem_id": 27395,
@@ -50909,17 +50786,23 @@
     },
     "27768": {
       "boj_problem_id": 27768,
-      "qoj_problem_id": 12092,
-      "qoj_url": "https://qoj.ac/problem/12092",
-      "match_type": "contest_export",
-      "qoj_title": "The Cartesian Job"
+      "qoj_problem_id": 12093,
+      "qoj_url": "https://qoj.ac/problem/12093",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Swordmaster",
+      "boj_titles": [
+        "Swordmaster"
+      ]
     },
     "27769": {
       "boj_problem_id": 27769,
-      "qoj_problem_id": 12093,
-      "qoj_url": "https://qoj.ac/problem/12093",
-      "match_type": "contest_export",
-      "qoj_title": "Swordmaster"
+      "qoj_problem_id": 12092,
+      "qoj_url": "https://qoj.ac/problem/12092",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "The Cartesian Job",
+      "boj_titles": [
+        "The Cartesian Job"
+      ]
     },
     "27770": {
       "boj_problem_id": 27770,
@@ -52076,13 +51959,6 @@
       "match_type": "contest_export",
       "qoj_title": "Sequence"
     },
-    "28223": {
-      "boj_problem_id": 28223,
-      "qoj_problem_id": 6529,
-      "qoj_url": "https://qoj.ac/problem/6529",
-      "match_type": "contest_export",
-      "qoj_title": "Alice, Bob and Circuit"
-    },
     "28224": {
       "boj_problem_id": 28224,
       "qoj_problem_id": 15641,
@@ -52768,118 +52644,6 @@
       "qoj_url": "https://qoj.ac/problem/7281",
       "match_type": "title_match",
       "qoj_title": "How to Avoid Disqualification in 75 Easy Steps"
-    },
-    "30123": {
-      "boj_problem_id": 30123,
-      "qoj_problem_id": 3401,
-      "qoj_url": "https://qoj.ac/problem/3401",
-      "match_type": "contest_export",
-      "qoj_title": "Assembling Services"
-    },
-    "30124": {
-      "boj_problem_id": 30124,
-      "qoj_problem_id": 3403,
-      "qoj_url": "https://qoj.ac/problem/3403",
-      "match_type": "contest_export",
-      "qoj_title": "Crossing Rivers"
-    },
-    "30125": {
-      "boj_problem_id": 30125,
-      "qoj_problem_id": 3404,
-      "qoj_url": "https://qoj.ac/problem/3404",
-      "match_type": "contest_export",
-      "qoj_title": "Download Manager"
-    },
-    "30126": {
-      "boj_problem_id": 30126,
-      "qoj_problem_id": 3405,
-      "qoj_url": "https://qoj.ac/problem/3405",
-      "match_type": "contest_export",
-      "qoj_title": "Exclusive-OR"
-    },
-    "30127": {
-      "boj_problem_id": 30127,
-      "qoj_problem_id": 3409,
-      "qoj_url": "https://qoj.ac/problem/3409",
-      "match_type": "contest_export",
-      "qoj_title": "In A Crazy City"
-    },
-    "30128": {
-      "boj_problem_id": 30128,
-      "qoj_problem_id": 3410,
-      "qoj_url": "https://qoj.ac/problem/3410",
-      "match_type": "contest_export",
-      "qoj_title": "Jiajia's Robot"
-    },
-    "30138": {
-      "boj_problem_id": 30138,
-      "qoj_problem_id": 17517,
-      "qoj_url": "https://qoj.ac/problem/17517",
-      "match_type": "contest_export",
-      "qoj_title": "Membership Management"
-    },
-    "30139": {
-      "boj_problem_id": 30139,
-      "qoj_problem_id": 17518,
-      "qoj_url": "https://qoj.ac/problem/17518",
-      "match_type": "contest_export",
-      "qoj_title": "Balloon Collecting"
-    },
-    "30140": {
-      "boj_problem_id": 30140,
-      "qoj_problem_id": 17519,
-      "qoj_url": "https://qoj.ac/problem/17519",
-      "match_type": "contest_export",
-      "qoj_title": "Towns along a Highway"
-    },
-    "30141": {
-      "boj_problem_id": 30141,
-      "qoj_problem_id": 17520,
-      "qoj_url": "https://qoj.ac/problem/17520",
-      "match_type": "contest_export",
-      "qoj_title": "Awkward Lights"
-    },
-    "30142": {
-      "boj_problem_id": 30142,
-      "qoj_problem_id": 17521,
-      "qoj_url": "https://qoj.ac/problem/17521",
-      "match_type": "contest_export",
-      "qoj_title": "The Two Men of the Japanese Alps"
-    },
-    "30143": {
-      "boj_problem_id": 30143,
-      "qoj_problem_id": 17522,
-      "qoj_url": "https://qoj.ac/problem/17522",
-      "match_type": "contest_export",
-      "qoj_title": "Find the Multiples"
-    },
-    "30144": {
-      "boj_problem_id": 30144,
-      "qoj_problem_id": 17523,
-      "qoj_url": "https://qoj.ac/problem/17523",
-      "match_type": "contest_export",
-      "qoj_title": "Test Case Tweaking"
-    },
-    "30145": {
-      "boj_problem_id": 30145,
-      "qoj_problem_id": 17524,
-      "qoj_url": "https://qoj.ac/problem/17524",
-      "match_type": "contest_export",
-      "qoj_title": "Where's Wally"
-    },
-    "30146": {
-      "boj_problem_id": 30146,
-      "qoj_problem_id": 17525,
-      "qoj_url": "https://qoj.ac/problem/17525",
-      "match_type": "contest_export",
-      "qoj_title": "Intersection of Two Prisms"
-    },
-    "30147": {
-      "boj_problem_id": 30147,
-      "qoj_problem_id": 17526,
-      "qoj_url": "https://qoj.ac/problem/17526",
-      "match_type": "contest_export",
-      "qoj_title": "Matrix Calculator"
     },
     "30292": {
       "boj_problem_id": 30292,
@@ -53793,10 +53557,13 @@
     },
     "30853": {
       "boj_problem_id": 30853,
-      "qoj_problem_id": 7553,
-      "qoj_url": "https://qoj.ac/problem/7553",
-      "match_type": "contest_export",
-      "qoj_title": "HackShuffle"
+      "qoj_problem_id": 7946,
+      "qoj_url": "https://qoj.ac/problem/7946",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Black Box",
+      "boj_titles": [
+        "Black Box"
+      ]
     },
     "30854": {
       "boj_problem_id": 30854,
@@ -53807,10 +53574,13 @@
     },
     "30855": {
       "boj_problem_id": 30855,
-      "qoj_problem_id": 7548,
-      "qoj_url": "https://qoj.ac/problem/7548",
-      "match_type": "contest_export",
-      "qoj_title": "Convert Into Irreducible"
+      "qoj_problem_id": 7948,
+      "qoj_url": "https://qoj.ac/problem/7948",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Fraction",
+      "boj_titles": [
+        "Fraction"
+      ]
     },
     "30856": {
       "boj_problem_id": 30856,
@@ -53849,24 +53619,33 @@
     },
     "30861": {
       "boj_problem_id": 30861,
-      "qoj_problem_id": 7547,
-      "qoj_url": "https://qoj.ac/problem/7547",
-      "match_type": "contest_export",
-      "qoj_title": "Beauty of Integers"
+      "qoj_problem_id": 7954,
+      "qoj_url": "https://qoj.ac/problem/7954",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Special Numbers",
+      "boj_titles": [
+        "Special Numbers"
+      ]
     },
     "30862": {
       "boj_problem_id": 30862,
-      "qoj_problem_id": 7549,
-      "qoj_url": "https://qoj.ac/problem/7549",
-      "match_type": "contest_export",
-      "qoj_title": "DNA Engineering"
+      "qoj_problem_id": 7955,
+      "qoj_url": "https://qoj.ac/problem/7955",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Tandem Copy",
+      "boj_titles": [
+        "Tandem Copy"
+      ]
     },
     "30863": {
       "boj_problem_id": 30863,
-      "qoj_problem_id": 7552,
-      "qoj_url": "https://qoj.ac/problem/7552",
-      "match_type": "contest_export",
-      "qoj_title": "Game with Coins"
+      "qoj_problem_id": 7956,
+      "qoj_url": "https://qoj.ac/problem/7956",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Walk Swapping",
+      "boj_titles": [
+        "Walk Swapping"
+      ]
     },
     "30898": {
       "boj_problem_id": 30898,
@@ -54308,13 +54087,6 @@
       "qoj_url": "https://qoj.ac/problem/2839",
       "match_type": "contest_export",
       "qoj_title": "3D Geometry"
-    },
-    "31123": {
-      "boj_problem_id": 31123,
-      "qoj_problem_id": 4748,
-      "qoj_url": "https://qoj.ac/problem/4748",
-      "match_type": "contest_export",
-      "qoj_title": "Polesov and work"
     },
     "31124": {
       "boj_problem_id": 31124,
@@ -54988,13 +54760,6 @@
       "match_type": "contest_export",
       "qoj_title": "Game with coins"
     },
-    "31345": {
-      "boj_problem_id": 31345,
-      "qoj_problem_id": 18100,
-      "qoj_url": "https://qoj.ac/problem/18100",
-      "match_type": "contest_export",
-      "qoj_title": "The hardest dice problem"
-    },
     "31346": {
       "boj_problem_id": 31346,
       "qoj_problem_id": 7144,
@@ -55018,17 +54783,23 @@
     },
     "31349": {
       "boj_problem_id": 31349,
-      "qoj_problem_id": 7147,
-      "qoj_url": "https://qoj.ac/problem/7147",
-      "match_type": "contest_export",
-      "qoj_title": "IQ Test"
+      "qoj_problem_id": 7148,
+      "qoj_url": "https://qoj.ac/problem/7148",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Inverse KMP",
+      "boj_titles": [
+        "Inverse KMP"
+      ]
     },
     "31350": {
       "boj_problem_id": 31350,
-      "qoj_problem_id": 7148,
-      "qoj_url": "https://qoj.ac/problem/7148",
-      "match_type": "contest_export",
-      "qoj_title": "Inverse KMP"
+      "qoj_problem_id": 7147,
+      "qoj_url": "https://qoj.ac/problem/7147",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "IQ Test",
+      "boj_titles": [
+        "IQ Test"
+      ]
     },
     "31351": {
       "boj_problem_id": 31351,
@@ -56327,31 +56098,43 @@
     },
     "32260": {
       "boj_problem_id": 32260,
-      "qoj_problem_id": 9238,
-      "qoj_url": "https://qoj.ac/problem/9238",
-      "match_type": "contest_export",
-      "qoj_title": "Tree"
+      "qoj_problem_id": 13546,
+      "qoj_url": "https://qoj.ac/problem/13546",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "A + B",
+      "boj_titles": [
+        "A + B"
+      ]
     },
     "32261": {
       "boj_problem_id": 32261,
-      "qoj_problem_id": 9239,
-      "qoj_url": "https://qoj.ac/problem/9239",
-      "match_type": "contest_export",
-      "qoj_title": "Hieroglyphs"
+      "qoj_problem_id": 13547,
+      "qoj_url": "https://qoj.ac/problem/13547",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Machine",
+      "boj_titles": [
+        "Machine"
+      ]
     },
     "32262": {
       "boj_problem_id": 32262,
-      "qoj_problem_id": 9240,
-      "qoj_url": "https://qoj.ac/problem/9240",
-      "match_type": "contest_export",
-      "qoj_title": "Mosaic"
+      "qoj_problem_id": 13548,
+      "qoj_url": "https://qoj.ac/problem/13548",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Pyramids",
+      "boj_titles": [
+        "Pyramids"
+      ]
     },
     "32263": {
       "boj_problem_id": 32263,
-      "qoj_problem_id": 9241,
-      "qoj_url": "https://qoj.ac/problem/9241",
-      "match_type": "contest_export",
-      "qoj_title": "Sphinx"
+      "qoj_problem_id": 13549,
+      "qoj_url": "https://qoj.ac/problem/13549",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Treasure",
+      "boj_titles": [
+        "Treasure"
+      ]
     },
     "32264": {
       "boj_problem_id": 32264,
@@ -56376,24 +56159,33 @@
     },
     "32267": {
       "boj_problem_id": 32267,
-      "qoj_problem_id": 13549,
-      "qoj_url": "https://qoj.ac/problem/13549",
-      "match_type": "contest_export",
-      "qoj_title": "Treasure"
+      "qoj_problem_id": 9239,
+      "qoj_url": "https://qoj.ac/problem/9239",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Hieroglyphs",
+      "boj_titles": [
+        "Hieroglyphs"
+      ]
     },
     "32268": {
       "boj_problem_id": 32268,
-      "qoj_problem_id": 9236,
-      "qoj_url": "https://qoj.ac/problem/9236",
-      "match_type": "contest_export",
-      "qoj_title": "Nile"
+      "qoj_problem_id": 9240,
+      "qoj_url": "https://qoj.ac/problem/9240",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Mosaic",
+      "boj_titles": [
+        "Mosaic"
+      ]
     },
     "32269": {
       "boj_problem_id": 32269,
-      "qoj_problem_id": 9237,
-      "qoj_url": "https://qoj.ac/problem/9237",
-      "match_type": "contest_export",
-      "qoj_title": "Message"
+      "qoj_problem_id": 9241,
+      "qoj_url": "https://qoj.ac/problem/9241",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Sphinx",
+      "boj_titles": [
+        "Sphinx's Riddle"
+      ]
     },
     "32415": {
       "boj_problem_id": 32415,
@@ -56422,13 +56214,6 @@
       "qoj_url": "https://qoj.ac/problem/8809",
       "match_type": "title_match",
       "qoj_title": "Telephone Plans"
-    },
-    "32420": {
-      "boj_problem_id": 32420,
-      "qoj_problem_id": 10401,
-      "qoj_url": "https://qoj.ac/problem/10401",
-      "match_type": "contest_export",
-      "qoj_title": "Billboards"
     },
     "32421": {
       "boj_problem_id": 32421,
@@ -56465,13 +56250,6 @@
       "match_type": "contest_export",
       "qoj_title": "Friendly Rivalry"
     },
-    "32426": {
-      "boj_problem_id": 32426,
-      "qoj_problem_id": 10407,
-      "qoj_url": "https://qoj.ac/problem/10407",
-      "match_type": "contest_export",
-      "qoj_title": "Kindergarten"
-    },
     "32427": {
       "boj_problem_id": 32427,
       "qoj_problem_id": 10408,
@@ -56499,13 +56277,6 @@
       "qoj_url": "https://qoj.ac/problem/10411",
       "match_type": "contest_export",
       "qoj_title": "Tower of noiHa"
-    },
-    "32431": {
-      "boj_problem_id": 32431,
-      "qoj_problem_id": 10412,
-      "qoj_url": "https://qoj.ac/problem/10412",
-      "match_type": "contest_export",
-      "qoj_title": "Where Am I Now?"
     },
     "32444": {
       "boj_problem_id": 32444,
@@ -57405,87 +57176,133 @@
     },
     "32916": {
       "boj_problem_id": 32916,
-      "qoj_problem_id": 15407,
-      "qoj_url": "https://qoj.ac/problem/15407",
-      "match_type": "contest_export",
-      "qoj_title": "Asynchronous Processor"
+      "qoj_problem_id": 9824,
+      "qoj_url": "https://qoj.ac/problem/9824",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Another Brick in the Wall",
+      "boj_titles": [
+        "Another Brick in the Wall"
+      ]
     },
     "32917": {
       "boj_problem_id": 32917,
-      "qoj_problem_id": 15408,
-      "qoj_url": "https://qoj.ac/problem/15408",
-      "match_type": "contest_export",
-      "qoj_title": "Bounding Boxes"
+      "qoj_problem_id": 9825,
+      "qoj_url": "https://qoj.ac/problem/9825",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Brick in the Wall, Part 2",
+      "boj_titles": [
+        "Brick in the Wall, Part 2"
+      ]
     },
     "32918": {
       "boj_problem_id": 32918,
-      "qoj_problem_id": 15409,
-      "qoj_url": "https://qoj.ac/problem/15409",
-      "match_type": "contest_export",
-      "qoj_title": "Compact Encoding"
+      "qoj_problem_id": 9826,
+      "qoj_url": "https://qoj.ac/problem/9826",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Capybara Cozy Carnival",
+      "boj_titles": [
+        "Capybara Cozy Carnival"
+      ]
     },
     "32919": {
       "boj_problem_id": 32919,
-      "qoj_problem_id": 15410,
-      "qoj_url": "https://qoj.ac/problem/15410",
-      "match_type": "contest_export",
-      "qoj_title": "Defense Distance"
+      "qoj_problem_id": 9827,
+      "qoj_url": "https://qoj.ac/problem/9827",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Defective Script",
+      "boj_titles": [
+        "Defective Script"
+      ]
     },
     "32920": {
       "boj_problem_id": 32920,
-      "qoj_problem_id": 15411,
-      "qoj_url": "https://qoj.ac/problem/15411",
-      "match_type": "contest_export",
-      "qoj_title": "Eight-Connected Figures"
+      "qoj_problem_id": 9828,
+      "qoj_url": "https://qoj.ac/problem/9828",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Eight-Shaped Figures",
+      "boj_titles": [
+        "Eight-Shaped Figures"
+      ]
     },
     "32921": {
       "boj_problem_id": 32921,
-      "qoj_problem_id": 15412,
-      "qoj_url": "https://qoj.ac/problem/15412",
-      "match_type": "contest_export",
-      "qoj_title": "Faulty Fraction"
+      "qoj_problem_id": 9829,
+      "qoj_url": "https://qoj.ac/problem/9829",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "False Alarm",
+      "boj_titles": [
+        "False Alarm"
+      ]
     },
     "32922": {
       "boj_problem_id": 32922,
-      "qoj_problem_id": 15413,
-      "qoj_url": "https://qoj.ac/problem/15413",
-      "match_type": "contest_export",
-      "qoj_title": "Games of Chess"
+      "qoj_problem_id": 9830,
+      "qoj_url": "https://qoj.ac/problem/9830",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Game of Annihilation",
+      "boj_titles": [
+        "Game of Annihilation"
+      ]
     },
     "32923": {
       "boj_problem_id": 32923,
-      "qoj_problem_id": 15414,
-      "qoj_url": "https://qoj.ac/problem/15414",
-      "match_type": "contest_export",
-      "qoj_title": "High Score"
+      "qoj_problem_id": 9831,
+      "qoj_url": "https://qoj.ac/problem/9831",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Hanoi Towers Reloaded",
+      "boj_titles": [
+        "Hanoi Towers Reloaded"
+      ]
     },
     "32924": {
       "boj_problem_id": 32924,
-      "qoj_problem_id": 15415,
-      "qoj_url": "https://qoj.ac/problem/15415",
-      "match_type": "contest_export",
-      "qoj_title": "Infection Investigation"
+      "qoj_problem_id": 9832,
+      "qoj_url": "https://qoj.ac/problem/9832",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "If I Could Turn Back Time",
+      "boj_titles": [
+        "If I Could Turn Back Time"
+      ]
     },
     "32925": {
       "boj_problem_id": 32925,
-      "qoj_problem_id": 15416,
-      "qoj_url": "https://qoj.ac/problem/15416",
-      "match_type": "contest_export",
-      "qoj_title": "Judging Problem"
+      "qoj_problem_id": 9833,
+      "qoj_url": "https://qoj.ac/problem/9833",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Just Half is Enough",
+      "boj_titles": [
+        "Just Half is Enough"
+      ]
     },
     "32926": {
       "boj_problem_id": 32926,
-      "qoj_problem_id": 15417,
-      "qoj_url": "https://qoj.ac/problem/15417",
-      "match_type": "contest_export",
-      "qoj_title": "Keys and Grates"
+      "qoj_problem_id": 9834,
+      "qoj_url": "https://qoj.ac/problem/9834",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Keyboard Chaos",
+      "boj_titles": [
+        "Keyboard Chaos"
+      ]
     },
     "32927": {
       "boj_problem_id": 32927,
-      "qoj_problem_id": 15418,
-      "qoj_url": "https://qoj.ac/problem/15418",
-      "match_type": "contest_export",
-      "qoj_title": "Lucky Number Theory"
+      "qoj_problem_id": 9835,
+      "qoj_url": "https://qoj.ac/problem/9835",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Longest Common Substring",
+      "boj_titles": [
+        "Longest Common Substring"
+      ]
+    },
+    "32928": {
+      "boj_problem_id": 32928,
+      "qoj_problem_id": 9836,
+      "qoj_url": "https://qoj.ac/problem/9836",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Misère",
+      "boj_titles": [
+        "Misère"
+      ]
     },
     "32999": {
       "boj_problem_id": 32999,
@@ -58473,13 +58290,6 @@
       "qoj_url": "https://qoj.ac/problem/7725",
       "match_type": "contest_export",
       "qoj_title": "Just Sum Two Numbers"
-    },
-    "33343": {
-      "boj_problem_id": 33343,
-      "qoj_problem_id": 7726,
-      "qoj_url": "https://qoj.ac/problem/7726",
-      "match_type": "contest_export",
-      "qoj_title": "Keys"
     },
     "33344": {
       "boj_problem_id": 33344,
@@ -59573,90 +59383,6 @@
       "match_type": "title_match",
       "qoj_title": "True or False Test"
     },
-    "33741": {
-      "boj_problem_id": 33741,
-      "qoj_problem_id": 9167,
-      "qoj_url": "https://qoj.ac/problem/9167",
-      "match_type": "contest_export",
-      "qoj_title": "Coprime Array"
-    },
-    "33742": {
-      "boj_problem_id": 33742,
-      "qoj_problem_id": 9168,
-      "qoj_url": "https://qoj.ac/problem/9168",
-      "match_type": "contest_export",
-      "qoj_title": "Square Locator"
-    },
-    "33743": {
-      "boj_problem_id": 33743,
-      "qoj_problem_id": 9169,
-      "qoj_url": "https://qoj.ac/problem/9169",
-      "match_type": "contest_export",
-      "qoj_title": "-is-this-bitset-"
-    },
-    "33744": {
-      "boj_problem_id": 33744,
-      "qoj_problem_id": 9170,
-      "qoj_url": "https://qoj.ac/problem/9170",
-      "match_type": "contest_export",
-      "qoj_title": "Cycle Game"
-    },
-    "33745": {
-      "boj_problem_id": 33745,
-      "qoj_problem_id": 9171,
-      "qoj_url": "https://qoj.ac/problem/9171",
-      "match_type": "contest_export",
-      "qoj_title": "Sum of Squares"
-    },
-    "33746": {
-      "boj_problem_id": 33746,
-      "qoj_problem_id": 9172,
-      "qoj_url": "https://qoj.ac/problem/9172",
-      "match_type": "contest_export",
-      "qoj_title": "Alternating Cycle"
-    },
-    "33747": {
-      "boj_problem_id": 33747,
-      "qoj_problem_id": 9173,
-      "qoj_url": "https://qoj.ac/problem/9173",
-      "match_type": "contest_export",
-      "qoj_title": "Touching Grass"
-    },
-    "33748": {
-      "boj_problem_id": 33748,
-      "qoj_problem_id": 9174,
-      "qoj_url": "https://qoj.ac/problem/9174",
-      "match_type": "contest_export",
-      "qoj_title": "Game Design"
-    },
-    "33749": {
-      "boj_problem_id": 33749,
-      "qoj_problem_id": 9175,
-      "qoj_url": "https://qoj.ac/problem/9175",
-      "match_type": "contest_export",
-      "qoj_title": "Geometry Hacking"
-    },
-    "33750": {
-      "boj_problem_id": 33750,
-      "qoj_problem_id": 9176,
-      "qoj_url": "https://qoj.ac/problem/9176",
-      "match_type": "contest_export",
-      "qoj_title": "Non-Interactive Nim"
-    },
-    "33751": {
-      "boj_problem_id": 33751,
-      "qoj_problem_id": 9177,
-      "qoj_url": "https://qoj.ac/problem/9177",
-      "match_type": "contest_export",
-      "qoj_title": "String and Nails"
-    },
-    "33752": {
-      "boj_problem_id": 33752,
-      "qoj_problem_id": 9178,
-      "qoj_url": "https://qoj.ac/problem/9178",
-      "match_type": "contest_export",
-      "qoj_title": "All-You-Can-Eat"
-    },
     "33772": {
       "boj_problem_id": 33772,
       "qoj_problem_id": 11439,
@@ -60679,13 +60405,6 @@
       "match_type": "contest_export",
       "qoj_title": "Score Values"
     },
-    "34484": {
-      "boj_problem_id": 34484,
-      "qoj_problem_id": 14609,
-      "qoj_url": "https://qoj.ac/problem/14609",
-      "match_type": "contest_export",
-      "qoj_title": "Slot Machine"
-    },
     "34485": {
       "boj_problem_id": 34485,
       "qoj_problem_id": 14610,
@@ -60832,13 +60551,6 @@
       "qoj_url": "https://qoj.ac/problem/12416",
       "match_type": "title_match",
       "qoj_title": "Shopping Deals"
-    },
-    "34568": {
-      "boj_problem_id": 34568,
-      "qoj_problem_id": 10198,
-      "qoj_url": "https://qoj.ac/problem/10198",
-      "match_type": "contest_export",
-      "qoj_title": "Automatizacija"
     },
     "34569": {
       "boj_problem_id": 34569,
@@ -61953,13 +61665,6 @@
       "match_type": "contest_export",
       "qoj_title": "Down Right Chips"
     },
-    "35178": {
-      "boj_problem_id": 35178,
-      "qoj_problem_id": 15796,
-      "qoj_url": "https://qoj.ac/problem/15796",
-      "match_type": "contest_export",
-      "qoj_title": "Scrambled Scrabble"
-    },
     "35179": {
       "boj_problem_id": 35179,
       "qoj_problem_id": 10256,
@@ -62648,24 +62353,33 @@
     },
     "35390": {
       "boj_problem_id": 35390,
-      "qoj_problem_id": 17450,
-      "qoj_url": "https://qoj.ac/problem/17450",
-      "match_type": "contest_export",
-      "qoj_title": "Hussites"
+      "qoj_problem_id": 17449,
+      "qoj_url": "https://qoj.ac/problem/17449",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Grooves",
+      "boj_titles": [
+        "Grooves"
+      ]
     },
     "35391": {
       "boj_problem_id": 35391,
-      "qoj_problem_id": 17451,
-      "qoj_url": "https://qoj.ac/problem/17451",
-      "match_type": "contest_export",
-      "qoj_title": "JJ the Almighty"
+      "qoj_problem_id": 17450,
+      "qoj_url": "https://qoj.ac/problem/17450",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "Hussites",
+      "boj_titles": [
+        "Hussites"
+      ]
     },
     "35392": {
       "boj_problem_id": 35392,
-      "qoj_problem_id": 17453,
-      "qoj_url": "https://qoj.ac/problem/17453",
-      "match_type": "contest_export",
-      "qoj_title": "Ornithology"
+      "qoj_problem_id": 17451,
+      "qoj_url": "https://qoj.ac/problem/17451",
+      "match_type": "title_mismatch_review",
+      "qoj_title": "JJ the Almighty",
+      "boj_titles": [
+        "JJ the Almighty"
+      ]
     },
     "35393": {
       "boj_problem_id": 35393,
